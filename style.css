@@ -7,7 +7,6 @@ div {
     float: left;
 }
 
-
 /* Lagde klasser for å legge til litt rom mellom knappene våres og borderen  */
 .maalBoks {
     padding-left: 10px;
@@ -46,9 +45,9 @@ img {
 #isakBox {
     border: 5px ridge limegreen;
 }
-
-
-
+#HassanBox{
+    border: 5px ridge deepskyblue;
+}
 
 
 .headerUL {
@@ -77,4 +76,15 @@ img {
 
 .active {
     background-color: #04AA6D;
+}
+
+.HassanHover{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    padding: 12px;
+}
+.maalBoks:hover .HassanHover{
+    display: block;
 }

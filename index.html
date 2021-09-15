@@ -9,17 +9,15 @@
 </head>
 
 <Body>
+<!--Menyen-->
     <ul class="headerUL">
-        <li class="headerLI"> <a href="#"                          >    Hovedside </a> </li>
-        <li class="headerLI"> <a href="index.html"  class="active" >    Visittkort </a> </li>
-        <li class="headerLI"> <a href=""                           >    Prosjekter </a>  </li>
+        <li class="headerLI"> <a href="#"                          > Hovedside </a> </li>
+        <li class="headerLI"> <a href="index.html"  class="active" > Visittkort </a> </li>
+        <li class="headerLI"> <a href="ProsjektForside.html"> Prosjekter </a> </li>
     </ul>
-
-
 
     <h1>Visittkort gruppe 2a</h1>
     <p>IS-114 "How we roll"</p>
-
 
     <!--Audun sin del-->
     <div class="visittKortBox" id="audunBox">
@@ -28,7 +26,6 @@
         <div class="profilBildeRamme">
             <img src=https://i.imgur.com/wIzyRxS.jpeg" height="350" width="350">
         </div>
-
 
         <ul>
             <li>Alder: <strong>21</strong></li>
@@ -45,7 +42,7 @@
             <p id="demo"></p>
             <script>
                 function myFunction() {
-                    document.getElementById("demo").innerHTML = "Oppnå så gode karrakterer som mulig. Og legge et godt grunnlag for neste semester";
+                    document.getElementById("demo").innerHTML = "Oppnå så gode karrakterer som mulig. <br> Og legge et godt grunnlag for neste semester";
                 }
             </script>
         </div>
@@ -57,12 +54,10 @@
     <div class="visittKortBox" id="victorBox">
         <h2> Victor Rolf </h2>
 
-
         <div class="profilBildeRamme">
             <img src="https://scontent.fsvg2-1.fna.fbcdn.net/v/t1.6435-9/209545661_4186762191389250_1675760843954564264_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=a26aad&_nc_ohc=e5p-cFosObUAX-UzEKD&_nc_ht=scontent.fsvg2-1.fna&oh=cf3606138896860e25569834432ea308&oe=616436E4"
             height="350" width="350">
         </div>
-
 
         <ul>
             <li>Alder: <strong>19</strong></li>
@@ -79,7 +74,7 @@
             <p id="demo_Vrolf"></p>
             <script>
                 function vROLFFunction() {
-                    document.getElementById("demo_Vrolf").innerHTML = "Oppnå så gode karrakterer som mulig. Og legge et godt grunnlag for neste semester";
+                    document.getElementById("demo_Vrolf").innerHTML = "Oppnå så gode karrakterer som mulig. <br> Og legge et godt grunnlag for neste semester";
                 }
             </script>
         </div>
@@ -91,11 +86,9 @@
     <div class="visittKortBox" id="christofferBox">
         <h2> Christoffer Tønnessen </h2>
 
-
         <div class="profilBildeRamme">
             <img src="https://i.imgur.com/LsYih7M.jpeg" height="350" width="350">
         </div>
-
 
         <ul>
             <li>Alder: <strong>27</strong></li>
@@ -112,7 +105,7 @@
             <p id="demo_chris"></p>
             <script>
                 function chrisFunction() {
-                    document.getElementById("demo_chris").innerHTML = "Oppnå så gode karrakterer som mulig. Og legge et godt grunnlag for neste semester";
+                    document.getElementById("demo_chris").innerHTML = "Oppnå så gode karrakterer som mulig. <br> Og legge et godt grunnlag for neste semester";
                 }
             </script>
         </div>
@@ -149,5 +142,36 @@
         </div>
     </div>
 
+    <!--Hassan sin del-->
+    <div class="visittKortBox" id="HassanBox">
+        <h2>Hassan Heidari</h2>
+
+        <div class="profilBildeRamme">
+            <img src="" height="350" width="350">
+        </div>
+
+        <ul>
+            <li>Alder: <strong>19</strong></li>
+            <li>Personlighetstest: <strong>Forkjemper</strong></li>
+            <li>Sterk side: <strong>html, css og js</strong></li>
+            <li>Svak side: <strong>Blir lett ufokusert</strong></li>
+            <li>Favorittfag: <strong>IS-104</strong></li>
+            <li>Favorittpils: <strong>Drikker ikke</strong></li>
+        </ul>
+
+        <div class="maalBoks">
+            <button onmouseover="Maal();" style="margin-bottom: 15px;">Mine mål for første semester</button>
+            <div class="HassanHover">
+                <p id="HassanMaal"></p>
+            </div>
+
+            <script>
+            var HassanMaal=document.getElementById("HassanMaal");
+            function Maal(){
+                HassanMaal.innerHTML="Jobbe hardt for å oppnå gode karakterer <br> Skape god miljø i gruppa";
+            }
+            </script>
+        </div>
+    </div>
 </body>
 </html>
