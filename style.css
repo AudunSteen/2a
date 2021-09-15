@@ -1,0 +1,80 @@
+h2 {
+    text-align: center;
+}
+
+/* Stylen på hvordan div skal se ut */
+div {
+    float: left;
+}
+
+
+/* Lagde klasser for å legge til litt rom mellom knappene våres og borderen  */
+.maalBoks {
+    padding-left: 10px;
+    border: none;
+    margin: 0;
+}
+
+/* boksen til gutta */
+.visittKortBox{
+    margin: 2px;
+    border-radius: 0;
+    padding: 1px;
+}
+
+
+/* Ramme for profil bilde, kan avrunde, mekke position osv */
+.profilBildeRamme {
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 17px;
+}
+img {
+    border-radius: 15px
+}
+
+
+#audunBox {
+    border: 5px ridge red;
+}
+#victorBox {
+    border: 5px ridge orange;
+}
+#christofferBox {
+    border: 5px ridge rgb(255, 248, 33);
+}
+#isakBox {
+    border: 5px ridge limegreen;
+}
+
+
+
+
+
+.headerUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.headerLI {
+    float: left;
+}
+
+.headerLI a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.headerLI a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}

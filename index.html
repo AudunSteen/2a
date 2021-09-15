@@ -5,40 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gruppe 2A</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<style>
-    h2 {
-        text-align: center;
-    }
-
-
-    /* Stylen på hvordan div skal se ut */
-    div {
-        float: left;
-        width: 350px;
-        padding: 0;
-        border: 5px solid gray;
-        margin: 0;
-    }
-
-    /* Lagde klasser for å legge til litt rom mellom knappene våres og borderen  */
-    .maalBoks {
-        padding-left: 10px;
-        border: none;
-        margin: 0;
-    }
-
-</style>
-
 <Body>
+    <ul class="headerUL">
+        <li class="headerLI"> <a href="#"                          >    Hovedside </a> </li>
+        <li class="headerLI"> <a href="index.html"  class="active" >    Visittkort </a> </li>
+        <li class="headerLI"> <a href=""                           >    Prosjekter </a>  </li>
+    </ul>
+
+
+
     <h1>Visittkort gruppe 2a</h1>
     <p>IS-114 "How we roll"</p>
 
-    <div>
+
+    <!--Audun sin del-->
+    <div class="visittKortBox" id="audunBox">
         <h2> Audun Steen </h2>
 
-        <img src=https://i.imgur.com/wIzyRxS.jpeg" height="350" width="350">
+        <div class="profilBildeRamme">
+            <img src=https://i.imgur.com/wIzyRxS.jpeg" height="350" width="350">
+        </div>
 
 
         <ul>
@@ -62,14 +51,17 @@
         </div>
     </div>
 
-    <!--victor sin del-->
 
-    <div>
+
+    <!--victor sin del-->
+    <div class="visittKortBox" id="victorBox">
         <h2> Victor Rolf </h2>
 
 
-        <img src="https://scontent.fsvg2-1.fna.fbcdn.net/v/t1.6435-9/209545661_4186762191389250_1675760843954564264_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=a26aad&_nc_ohc=e5p-cFosObUAX-UzEKD&_nc_ht=scontent.fsvg2-1.fna&oh=cf3606138896860e25569834432ea308&oe=616436E4"
+        <div class="profilBildeRamme">
+            <img src="https://scontent.fsvg2-1.fna.fbcdn.net/v/t1.6435-9/209545661_4186762191389250_1675760843954564264_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=a26aad&_nc_ohc=e5p-cFosObUAX-UzEKD&_nc_ht=scontent.fsvg2-1.fna&oh=cf3606138896860e25569834432ea308&oe=616436E4"
             height="350" width="350">
+        </div>
 
 
         <ul>
@@ -93,13 +85,16 @@
         </div>
     </div>
 
+
+
     <!--Chris sin del-->
-    <div>
+    <div class="visittKortBox" id="christofferBox">
         <h2> Christoffer Tønnessen </h2>
 
 
-        <img src="https://i.imgur.com/LsYih7M.jpeg"
-             height="350" width="350">
+        <div class="profilBildeRamme">
+            <img src="https://i.imgur.com/LsYih7M.jpeg" height="350" width="350">
+        </div>
 
 
         <ul>
@@ -123,16 +118,20 @@
         </div>
     </div>
 
+
+
     <!--Isak sin del-->
-    <div>
+    <div class="visittKortBox" id="isakBox">
         <h2> Isak Kvernes Meen </h2>
 
-        <img src="" alt="Bilde av Isak" height="350" width="350">
+        <div class="profilBildeRamme">
+            <img src="" alt="Bilde av Isak" height="350" width="350">
+        </div>
 
         <ul>
             <li>Alder: <strong>19</strong></li>
             <li>Personlighetstest: <strong>Leder</strong></li>
-            <li>Sterk side: <strong>Algorytmer</strong></li>
+            <li>Sterk side: <strong>Algoritmer</strong></li>
             <li>Svak side: <strong>Prokrastinering</strong></li>
             <li>Favorittfag: <strong>IS-114</strong></li>
             <li>Favorittpils: <strong>Kirin / Blanc 1664</strong></li>
@@ -149,5 +148,6 @@
             </script>
         </div>
     </div>
+
 </body>
 </html>
