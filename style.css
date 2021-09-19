@@ -48,9 +48,24 @@ img {
 #HassanBox{
     border: 5px ridge deepskyblue;
 }
+#christianBox {
+    border: 5px ridge midnightblue;
+}
+body {
+    margin: 0;
+    margin-top: 100px;
+}
 
+nav {
+    display: compact;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #eeeeee
+}
 
-.headerUL {
+.navUL {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -58,11 +73,11 @@ img {
     background-color: #333;
 }
 
-.headerLI {
+.navLI {
     float: left;
 }
 
-.headerLI a {
+.navLI a {
     display: block;
     color: white;
     text-align: center;
@@ -70,8 +85,24 @@ img {
     text-decoration: none;
 }
 
-.headerLI a:hover:not(.active) {
+.navLI a:hover:not(.active) {
     background-color: #111;
+}
+
+header {
+    display: inline;
+    position: center;
+    top: 0;
+    bottom: 100px;
+    left: 5px;
+    right: 5px;
+    margin: 20px;
+    margin-top: 0;
+    background-color: hsla(0, 100%, 100%, 0.0);
+}
+
+section {
+
 }
 
 .active {
@@ -88,3 +119,5 @@ img {
 .maalBoks:hover .HassanHover{
     display: block;
 }
+
+

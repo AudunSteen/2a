@@ -9,17 +9,23 @@
 </head>
 
 <Body>
-<!--Menyen-->
-    <ul class="headerUL">
-        <li class="headerLI"> <a href="#"                          > Hovedside </a> </li>
-        <li class="headerLI"> <a href="index.html"  class="active" > Visittkort </a> </li>
-        <li class="headerLI"> <a href="ProsjektForside.html"> Prosjekter </a> </li>
-    </ul>
 
+<!--Menyen--> <!--La til <nav> <header> <section>-->
+<nav>
+        <ul class="navUL">
+        <li class="navLI"> <a href="#"                          > Hovedside </a> </li>
+        <li class="navLI"> <a href="index.html"  class="active" > Visittkort </a> </li>
+        <li class="navLI"> <a href="ProsjektForside.html"> Prosjekter </a> </li>
+    </ul>
+</nav>
+
+<header>
     <h1>Visittkort gruppe 2a</h1>
     <p>IS-114 "How we roll"</p>
+</header>
 
     <!--Audun sin del-->
+<section id="audun">
     <div class="visittKortBox" id="audunBox">
         <h2> Audun Steen </h2>
 
@@ -47,10 +53,11 @@
             </script>
         </div>
     </div>
-
+</section>
 
 
     <!--victor sin del-->
+<section id="viktor">
     <div class="visittKortBox" id="victorBox">
         <h2> Victor Rolf </h2>
 
@@ -79,10 +86,11 @@
             </script>
         </div>
     </div>
-
+</section>
 
 
     <!--Chris sin del-->
+<section id="christoffer">
     <div class="visittKortBox" id="christofferBox">
         <h2> Christoffer Tønnessen </h2>
 
@@ -110,10 +118,11 @@
             </script>
         </div>
     </div>
-
+</section>
 
 
     <!--Isak sin del-->
+<section id="isak">
     <div class="visittKortBox" id="isakBox">
         <h2> Isak Kvernes Meen </h2>
 
@@ -141,8 +150,11 @@
             </script>
         </div>
     </div>
+</section>
+
 
     <!--Hassan sin del-->
+<section id="hassan">
     <div class="visittKortBox" id="HassanBox">
         <h2>Hassan Heidari</h2>
 
@@ -173,5 +185,40 @@
             </script>
         </div>
     </div>
+</section>
+
+
+<!--Christian sin del-->
+<section id="christian">
+    <div class="visittKortBox" id="christianBox">
+         <h2>Christian Nguyen</h2>
+        <div class="profilBildeRamme">
+            <img src="" alt="Bilde av Christian Nguyen" style="height:350px;width:350px">
+        </div>
+
+
+            <ul>
+                <li>Alder: <strong>19</strong></li>
+                <li>Personlighetstest: <strong>Talsmann</strong></li>
+                <li>Sterk side: <strong>Fleksibel</strong></li>
+                <li>Svak side: <strong>Lat</strong></li>
+                <li>Favoritt fag: <strong>IS-114</strong></li>
+                <li>Favorittpils: <strong>Blanc 1664</strong></li>
+            </ul>
+
+            <div class="maalBoks">
+            <button onclick="christianFunction()">Mine mål for første semester</button>
+
+            <p id="christianmaal"></p>
+                <script>
+                    function christianFunction() {
+                        document.getElementById("christianmaal").innerHTMl="Gjøre det beste jeg kan,og få god læringsutbytte sammen med gruppen";
+                    }
+                </script>
+            </div>
+    </div>
+</section>
+
 </body>
+
 </html>
