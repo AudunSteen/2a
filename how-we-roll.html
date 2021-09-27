@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HowWeRoll prototype (lagring)</title>
+    <!-- Med denne filen ønsker vi å bevise at vi kan samle inn data ... -->
+    <style>
+     /* Her kan stil defineres (vi skal bruke Cascading Style Sheets) */
+    </style>
+ <!--
+    [[[[[[[[     [[[[[[[[        [[[[   [[[[   [[[[  [[[[
+    [::::::[    [::[             [::[   [::[   [::[  [::[
+      [::[      [::[             [::[   [::[   [::[  [::[
+      [::[       [::::[   [[[[   [::[   [::[   [[[[[[[[[[
+      [::[          [::[         [::[   [::[         [::[
+    [::::::[        [::[         [::[   [::[         [::[
+    [[[[[[[[   [[[[[[[[          [[[[   [[[[         [[[[
+ -->
+</head>
+<body>
+  <!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
+  <!-- Issue se https://html.spec.whatwg.org/multipage/forms.html#introduction-4 -->
+  <hr>
+  <form>
+      <p><label for="data01">Data inn felt #1</label>
+          <input type="text" name="data01" id="data01" /></p>
 
+      <p><label for="data02">Data inn felt #2</label>
+      <input type="text" name="data02" id="data02" /></p>
+
+      <p>HowWeRoll-parametre:</p>
+
+      <p>
+          <!-- dorn - day or night -->
+          <label for="dorn">Morgenfugl</label>
+          <input type="range" id="dorn" name="dorn" value="50">
+          <label for="dorn">Nattugle</label>
+      </p>
+
+      <p>
+          <!-- cora - cooperate or alone -->
+          <label for="cora">Jobbe med det sammen</label>
+          <input type="range" id="cora" name="cora" value="50">
+          <label for="cora">Gå for seg selv og tenke</label>
+      </p>
+
+      <p>
+          <label>Please choose one of the numbers:
+              <select name="numb">
+                      <option value="ten">10</option>
+                      <option value="twenty">20</option>
+                      <option value="forty" disabled>30</option>
+              </select>
+          </label>
+      </p>
+
+      <button type="submit">Gjør noe</button>
+  </form>
+
+  <div class="results">
+      <h2>Form Data</h2>
+      <pre></pre>
+  </div>
+
+  <script>
+   // Example POST method implementation using fetch:
+   async function postData(url = '', data = {}) {
+       // Default options are marked with *
+       const response = await fetch(url, {
+           method: 'POST', // *GET, POST, PUT, DELETE, etc.
+           mode: 'cors', // no-cors, *cors, same-origin
+           cache: 'no-cache', // *default, no-cache, reload, force-cache,only-if-cached
+           credentials: 'same-origin', // include, *same-origin, omit
+           headers: {
+               'Content-Type': 'application/json',
+                // 'Content-Type': 'application/x-www-form-urlencoded',
+           },
+           redirect: 'follow', // manual, *follow, error
+           referrerPolicy: 'no-referrer', // no-referrer,*no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+           body: JSON.stringify(data) // body data type must match"Content-Type"header
+       });
+       return response.json(); // parses JSON response into native JavaScriptobjects
+   }
+
+   function handleSubmit(event) {
+        event.preventDefault();
+        const data = new FormData(event.target);
+        const formJSON = Object.fromEntries(data.entries());
+        const results = document.querySelector('.results pre');
+        postData('https://bacit.info/', formJSON)
+        .then(data => {
+           results.innerText = JSON.stringify(data, null, 2);
+        });
+   }
+   const form = document.querySelector('form');
+   form.addEventListener('submit', handleSubmit);
+  </script>
+</body>
+</html>
