@@ -1,20 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>TITTEL</title>
+    <style>
+        body {
+            background-color: #fff;
+            margin: 0;
+            font-family: Arial;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .navbar {
+            display: block;
+            text-align: center;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .navbar li {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -moz-osx-font-smoothing: grayscale;
+            position: relative;
+            overflow: hidden;
+        }
+        .navbar li:before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            left: 50%;
+            right: 50%;
+            bottom: 0;
+            background: white;
+            height: 4px;
+            -webkit-transition-property: left, right;
+            transition-property: left, right;
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+        }
+        .navbar li:hover:before, navbar li:focus:before, .navbar li:active:before {
+            left: 0;
+            right: 0;
+        }
+
+        .navbar li a {
+            padding: 25px;
+            display: block;
+            height: 100%;
+            color: white;
+            text-decoration: none;
+        }
+
+        .title {
+            height: 80px;
+            padding: 2px;
+            background-color: #fff;
+        }
+
+        .container {
+            margin-top: 150px;
+            padding-top: 50px;
+        }
+
+        .home {
+            margin-top: 10px;
+            text-align: center;
+            padding: 40px !important;
+        }
+        .wrap {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .left_col {
+            float: left;
+            width: 50%;
+        }
+        .right_col {
+            float: right;
+            width: 50%;
+        }
+        .right_col img {
+            width: 80%;
+            margin-top: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .left_col img {
+            width: 80%;
+            margin-top: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+    </style>
 
 </head>
+
 <body style="background-color: #000000;">
-
-<div class="w3-bar w3-black">
-    <a href="#" class="w3-bar-item w3-button">Hjem</a>
-    <a href="#" class="w3-bar-item w3-button">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+<header>
+    <div class="hei">
 </div>
+    <div class="navbar">
+        <ul>
+            <li style="float: left"><a href="#home">Hjem</a></li>
+            <li><a href="#contact">How we roll</a></li>
+            <li><a href="#about">HWR-Report</a></li>
+              </ul>
+    </div>
+</header>
+<!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
+<div class="debug"></div>
+<script>
+    // Her skrives kode i JavaScript som "gir liv" til bilde på skjermen.
 
-
+</script>
 </body>
 </html>
