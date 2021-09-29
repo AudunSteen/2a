@@ -11,3 +11,4 @@
    2. 28.09.2021 Vi har i dag sittet sammen og koded litt med style på navbar, 
       og begynt knapt på body. Alle satt sammen og diskuterte koden. De som var 
       mer dyktigere kodere holdt litt tilbake og forklarte til gruppa.
+      

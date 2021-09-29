@@ -23,12 +23,15 @@
   <!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
   <!-- Issue se https://html.spec.whatwg.org/multipage/forms.html#introduction-4 -->
   <hr>
-  <form>
-      <p><label for="data01">Data inn felt #1</label>
-          <input type="text" name="data01" id="data01" /></p>
+  <form> <!--Her registreres brukeren som sender inn data-->
+      <p><label for="navn">Navn</label>
+          <input type="text" name="navn" id="navn" maxlength="20" required /></p>
 
-      <p><label for="data02">Data inn felt #2</label>
-      <input type="text" name="data02" id="data02" /></p>
+      <p><label for="email">Email</label>
+      <input type="email" id="email"
+              name="email" id="email" size="40" required></p>
+
+
 
       <p>HowWeRoll-parametre:</p>
 
@@ -41,22 +44,59 @@
 
       <p>
           <!-- cora - cooperate or alone -->
-          <label for="cora">Jobbe med det sammen</label>
+          <label for="cora">Samarbeide</label>
           <input type="range" id="cora" name="cora" value="50">
-          <label for="cora">Gå for seg selv og tenke</label>
+          <label for="cora">Jobbe individuelt</label>
       </p>
 
       <p>
-          <label>Please choose one of the numbers:
-              <select name="numb">
-                      <option value="ten">10</option>
-                      <option value="twenty">20</option>
-                      <option value="forty" disabled>30</option>
+          <label>Hvilken personlighetstype er du?:
+              <select name="personlighet">
+                      <option value="Introvert">Introvert</option>
+                      <option value="Extrovert">Ekstrovert</option>
               </select>
           </label>
       </p>
 
-      <button type="submit">Gjør noe</button>
+      <p>
+            <label>Hvor jobber du best?:</label>
+            <input type="radio" id="hjemme" name="Hvor jobber du best?" value="hjemme">
+            <label for="hjemme">Hjemme</label>
+
+            <input type="radio" id="kontor" name="Hvor jobber du best?" value="kontor">
+            <label for="kontor">Kontor</label>
+      </p>
+
+      <p>Når arbeider du mest effektivt?:</p>
+      <div>
+          <input type="radio" id="under press" name="Når arbeider du mest effektivt" value="rolige omgivelser"
+                 checked>
+          <label for="under press">Under press</label>
+      </div>
+
+      <div>
+          <input type="radio" id="rolige omgivelser" name="Når arbeider du mest effektivt" value="under press">
+          <label for="rolige omgivelser">I rolige omgivelser</label>
+      </div>
+
+      <p>Fysisk arbeid eller kontor?:</p>
+      <div>
+          <input type="radio" id="fysisk" name="fysisk eller kontor" value="kontor"
+                 checked>
+          <label for="fysisk">Fysisk arbeid</label>
+      </div>
+      <div>
+          <input type="radio" id="kontor" name="fysisk eller kontor" value="fysisk">
+          <label for="kontor">Kontor</label>
+      </div>
+
+      <div class="button">
+          <div class="container">
+        <div class="tick">
+
+                </div>
+            </div>
+      </div>
   </form>
 
   <div class="results">
