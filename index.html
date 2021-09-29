@@ -22,8 +22,6 @@
             display: block;
             text-align: center;
 
-
-
         }
 
         nav ul {
@@ -40,6 +38,7 @@
             position: relative;
             overflow: hidden;
         }
+
         nav li:before { /*Navbaren-animasjon*/
             content: "";
             position: absolute;
@@ -51,7 +50,9 @@
             height: 4px;
             transition-duration: 0.5s; /* Hentet fra nett*/
             transition-timing-function: ease-out;
-        }                                   /*legger til noe nytt, på det gamle css*/
+        }
+
+        /*legger til noe nytt, på det gamle css*/
         nav li:hover:before, nav li:focus:before, nav li:active:before { /* Når hoover over med muspekern, blir det over aktivert*/
             left: 0;
             right: 0;
@@ -63,6 +64,25 @@
             height: 100%;
             color: white;
             text-decoration: none;
+        }
+        /*visittkort*/
+        .visittkort {
+            position: absolute;
+            overflow: hidden;
+            height: 1000px;
+            width: 1500px;
+
+            animation: moveFirst 30s linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes moveFirst {
+            from {
+                left: -30%;
+            }
+            to {
+                left: 100%;
+            }
         }
         </style>
 
@@ -78,9 +98,15 @@
     </nav>
 
 <!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
-    <section>
-        <div>
-            <p>Person 1</p>
+    <section class="visittkort">
+        <div class="Person1">
+            <img src="https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg" style="width: 300px;" alt="">
+        </div>
+
+        <div class="Person2">
+            <svg id="svgClouds3" data-name="clouds2">
+                <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)"/>
+            </svg>
         </div>
     </section>
 <div class="debug"></div>
