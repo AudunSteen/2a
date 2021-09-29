@@ -7,56 +7,52 @@
     <title>HowWeRoll prototype (lagring)</title>
     <!-- Med denne filen ønsker vi å bevise at vi kan samle inn data ... -->
     <style>
-       body, .button .tick {
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           font-family: Arial;
-       }
-       button body {
-           width: 100%;
-           height: 90vh;
-       }
-       .button {
-           width: 300px;
-           height: 80px;
-           background: darkgreen;
-           border-radius: 6px;
-           transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
-       }
+      body, .button, .tick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
 
-       .button svg {
-           transform: rotate(180deg);
-           transition: all .5s;
-       }
+body {
+  width: 40%;
+  height: 90vh;
+  font-family: 'Times New Roman', Times, serif;
 
-       .button__circle {
-           width: 120px;
-           height: 120px;
-           background: lightgreen;
-           border-radius: 50%;
-           transform: rotate(-180deg);
-       }
+}
 
-       .button:hover {
-           cursor: pointer;
-       }
+.button {
+  width: 150px;
+  height: 40px;
+  background: grey;
+  border-radius: 6px;
+  transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+  font-size: x-small;
+}
+.button svg {
+  transform: rotate(180deg);
+  transition: all .5s;
+}
 
-       .tick {
-           color: white;
-           font-size: 2em;
-           transition: all .9s;
-       }
+.button__circle {
+  width: 80px;
+  height: 80px;
+  background: green;
+  border-radius: 50%;
+  transform: rotate(-180deg);
+}
 
+.button:hover {
+  cursor: pointer;
+}
 
+.tick {
+  color: white;
+  font-size: 2em;
+  transition: all .9s;
+}
+ </style>
 
-
-
-
-
-
-        
-    </style>
 </head>
 <body>
   <!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
@@ -128,14 +124,12 @@
           <input type="radio" id="kontor" name="fysisk eller kontor" value="fysisk">
           <label for="kontor">Kontor</label>
       </div>
-
-      <div class="button">
-          <div class="container">
-        <div class="tick">
-
-                </div>
+      <div class="button" >
+        <div class="container">
+            <div class="tick">
             </div>
-      </div>
+        </div>
+    </div>
   </form>
 
   <div class="results">
@@ -143,36 +137,28 @@
       <pre></pre>
   </div>
 
-  <script>
-    let button =
-        document.querySelector(".button")
-    let buttontext =
-        document.querySelector(".tick")
+ <script>
+     // her skal det legges til kommentarer og lenke til hvor den stammer fra
+     let button = document.querySelector(".button");
+let buttonText = document.querySelector(".tick");
 
-    const tickMark = "<svg width=\"58\" height=\"45\" viewBox=\"0 0 58 45\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"#fff\" fill-rule=\"nonzero\" d=\"M19.11 44.64L.27 25.81l5.66-5.66 13.18 13.18L52.07.38l5.65 5.65\"/></svg>";
+const tickMark =
+	'<svg width="58" height="30" viewBox="0 0 58 45" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" fill-rule="nonzero" d="M19.11 44.64L.27 25.81l5.66-5.66 13.18 13.18L52.07.38l5.65 5.65"/></svg>';
 
-    buttontext.innerHTML = "submit";
+buttonText.innerHTML = "Lagre Data";
 
-    button.addEventListener("click",
-function() {
-    if (buttontext.innerHTML !== "submit")
-        }
-        buttontext.innerHTML = "submit";
-    } else if(buttontext.innerHTML === "submit")
-    {
-        buttontext.innerHTML = tickMark;
-    }
-    {
-    this.classList.toggle("button__circle");
-    });
-
-
-
-
-
-  </script>
+button.addEventListener("click", function () {
+	if (buttonText.innerHTML !== "Lagre Data") {
+		buttonText.innerHTML = "Lagre Data";
+	} else if (buttonText.innerHTML === "Lagre Data") {
+		buttonText.innerHTML = tickMark;
+	}
+	this.classList.toggle("button__circle");
+});
+ </script>
 
   <script>
+
    // Example POST method implementation using fetch:
    async function postData(url = '', data = {}) {
        // Default options are marked with *
