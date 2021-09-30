@@ -10,5 +10,11 @@
    for prosjektet og diskutert hvordan vi skal fortsette videre.
    2. 28.09.2021 Vi har i dag sittet sammen og koded litt med style på navbar, 
       og begynt knapt på body. Alle satt sammen og diskuterte koden. De som var 
-      mer dyktigere kodere holdt litt tilbake og forklarte til gruppa.
-      
+      mer dyktigere kodere holdt litt tilbake og forklarte til gruppa. 
+   3. 29.09.2021 vi delte oss inn i 2 grupper slik at alle kunne være med å bidra og lære.
+      en gruppe jobbet med visitkort og en gruppe jobbet how-we-roll nettsiden.
+      vi kodet sammen og alle fikk lagt inn forskjellige koder og jobbet med forms/visitkort.
+   4. 30.09.2021 Idag ble vi ferdig med rammen for visittkortet. og prøve å fikse bilde slideshow, vi vurderer og fortsette videre siden vi kom veldig nærme, men vi er usiker om vi skal ta det med i sluttproduktet. 
+   Vi fant ut at det ble komplisert. Vi jobbet i gruppe over discord. De som var minst erfarene i koding lagde rammen for visittkortet, 
+   og de som hadde mer kompetanse holdt på med slideshow, for å få lik utfordning på alle i gruppa.
+   kodet også inn navbar og stylet how-we-roll med bakgrunn og tekst farge.
