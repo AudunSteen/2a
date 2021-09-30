@@ -7,6 +7,57 @@
     <title>HowWeRoll prototype (lagring)</title>
     <!-- Med denne filen ønsker vi å bevise at vi kan samle inn data ... -->
     <style>
+        nav {
+            background-color: #000000;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: block;
+            text-align: center;
+            right:5px
+
+
+
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        nav li { /*navbar knappene*/
+            display: inline-block;
+            vertical-align: middle;
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            position: relative;
+            overflow: hidden;
+        }
+        nav li:before { /*Navbaren-animasjon*/
+            content: "";
+            position: absolute;
+            z-index: -1;
+            left: 50%;
+            right: 50%;
+            bottom: 0;
+            background: white;
+            height: 5px;
+            transition-duration: 0.5s; /* Hentet fra nett*/
+            transition-timing-function: ease-out;
+        }                                   /*legger til noe nytt, på det gamle css*/
+        nav li:hover:before, nav li:focus:before, nav li:active:before { /* Når hoover over med muspekern, blir det over aktivert*/
+            left: 0;
+            right: 0;
+        }
+
+        nav li a {
+            padding: 25px;
+            display: block;
+            height: 100%;
+            color: white;
+            text-decoration: none;
+        }
       body, .button, .tick {
   display: flex;
   justify-content: center;
@@ -67,6 +118,14 @@ body {
 
 </head>
 <body>
+<nav>
+    <ul>
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="how-we-roll.html">How we roll</a></li>
+        <li><a href="hwr-report.html">HWR-Report</a></li>
+    </ul>
+</nav>
+
   <!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
   <!-- Issue se https://html.spec.whatwg.org/multipage/forms.html#introduction-4 -->
   <hr>
