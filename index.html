@@ -38,8 +38,6 @@
             display: block;
             text-align: center;
 
-
-
         }
 
         nav ul {
@@ -56,6 +54,7 @@
             position: relative;
             overflow: hidden;
         }
+
         nav li:before { /*Navbaren-animasjon*/
             content: "";
             position: absolute;
@@ -67,7 +66,9 @@
             height: 5px;
             transition-duration: 0.5s; /* Hentet fra nett*/
             transition-timing-function: ease-out;
-        }                                   /*legger til noe nytt, på det gamle css*/
+        }
+
+        /*legger til noe nytt, på det gamle css*/
         nav li:hover:before, nav li:focus:before, nav li:active:before { /* Når hoover over med muspekern, blir det over aktivert*/
             left: 0;
             right: 0;
@@ -79,6 +80,25 @@
             height: 100%;
             color: white;
             text-decoration: none;
+        }
+        /*visittkort*/
+        .visittkort {
+            position: absolute;
+            overflow: hidden;
+            height: 3000px;
+            width: 1500px;
+
+            animation: moveFirst 30s linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes moveFirst {
+            from {
+                left: -30%;
+            }
+            to {
+                left: 100%;
+            }
         }
         </style>
 
@@ -94,6 +114,21 @@
     </nav>
 
 <!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
+
+    <section class="visittkort">
+        <div class="Person1">
+            <img src="https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg" alt="" style="width: 300px;">
+        </div>
+
+        <div class="Person2">
+            <img src="Bilder/Even.png" alt="" style="width: 300px;">
+        </div>
+        <div>
+            <img src="Bilder/Hassan.PNG" alt="" style="width: 300px;">
+        </div>
+        <div>
+            <img src="Bilder/Audun.png" alt="" style="width: 300px;">
+
     <section>
         <div class="visitkort">
             <ul>
@@ -106,6 +141,8 @@
                  Litt  om deg selv. <br>
                 </p>
             </ul>
+
+       
         </div>
     </section>
 <div class="debug"></div>
