@@ -11,4 +11,4 @@
    2. 28.09.2021 Vi har i dag sittet sammen og koded litt med style på navbar, 
       og begynt knapt på body. Alle satt sammen og diskuterte koden. De som var 
       mer dyktigere kodere holdt litt tilbake og forklarte til gruppa.
-      
+      3. 30.09 Idag ble vi ferdig med rammen for visittkortet. og prøve å fikse bilde slideshow, vi vurderer og fortsette videre siden vi kom veldig nærme, men vi er usiker om vi skal ta det med i sluttproduktet. Vi fant ut at det ble komplisert. Vi jobbet i gruppe over discord. De som var minst erfarene i koding lagde rammen for visittkortet, og de som hadde mer kompetanse holdt på med slideshow, for å få lik utfordning på alle i gruppa.
