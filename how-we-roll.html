@@ -8,7 +8,7 @@
     <!-- Med denne filen ønsker vi å bevise at vi kan samle inn data ... -->
     <style>
         nav {
-            background-color: #000000;
+            background-color: #131e23;
             position: absolute;
             top: 0;
             width: 100%;
@@ -119,18 +119,20 @@
       </p>
 
       <p>
-          <label>Hvilken personlighetstype er du?:
-              <select name="personlighet">
-                      <option value="Introvert">Introvert</option>
+          <!-- iore - introvert or ekstrovert -->
+          <label for="iore">>Hvilken personlighetstype er du?: </label>
+              <select name="personlighet"id="iore">
+                      <option value="Introvert">Introvert </option>
                       <option value="Extrovert">Ekstrovert</option>
               </select>
-          </label>
+
       </p>
 
       <p>
-            <label>Hvor jobber du best?:</label>
-            <input type="radio" id="hjemme" name="Hvor jobber du best?" value="hjemme">
-            <label for="hjemme">Hjemme</label>
+          <!--horo - home or office-->
+            <label for="horo">Hvor jobber du best?:</label>
+            <input type="radio" id="horo" name="Hvor jobber du best?" value="hjemme">
+            <label for="horo">Hjemme</label>
 
             <input type="radio" id="kontor" name="Hvor jobber du best?" value="kontor">
             <label for="kontor">Kontor</label>
