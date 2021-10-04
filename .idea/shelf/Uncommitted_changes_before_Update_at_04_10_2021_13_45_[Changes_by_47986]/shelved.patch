@@ -1,0 +1,75 @@
+Index: hwr-report.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>TITTEL</title>\r\n    <style>\r\n     <!-- Her kan stil defineres (vi skal bruke Cascading Style Sheets) -->\r\n    </style>\r\n <!--\r\n    [[[[[[[[     [[[[[[[[        [[[[   [[[[   [[[[  [[[[\r\n    [::::::[    [::[             [::[   [::[   [::[  [::[\r\n      [::[      [::[             [::[   [::[   [::[  [::[\r\n      [::[       [::::[   [[[[   [::[   [::[   [[[[[[[[[[\r\n      [::[          [::[         [::[   [::[         [::[\r\n    [::::::[        [::[         [::[   [::[         [::[\r\n    [[[[[[[[   [[[[[[[[          [[[[   [[[[         [[[[\r\n -->\r\n</head>\r\n<body>\r\n  <!-- Her skrives alt innhold, som man ønsker å \"tegne\" på skjermen. -->\r\n\r\n  <script>\r\n\r\n    fetch('https://bacit.info/hwr/20210926134925-47352fbdecddd9a754001f4e4abbf40f.json')\r\n    .then(response => response.json())\r\n    .then(data => console.log(data));\r\n\r\n    fetch('https://bacit.info/hwr/20210926162029-a89356bb617d3bbf870649c08570427e.json')\r\n    .then(response => response.json())\r\n    .then(data => console.log(data));\r\n\r\n  </script>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/hwr-report.html b/hwr-report.html
+--- a/hwr-report.html	(revision 5666db6e8dc993244d92022e5cda415e0bb242b1)
++++ b/hwr-report.html	(date 1633346573497)
+@@ -6,30 +6,47 @@
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>TITTEL</title>
+     <style>
+-     <!-- Her kan stil defineres (vi skal bruke Cascading Style Sheets) -->
++     div {
++
++     }
+     </style>
+- <!--
+-    [[[[[[[[     [[[[[[[[        [[[[   [[[[   [[[[  [[[[
+-    [::::::[    [::[             [::[   [::[   [::[  [::[
+-      [::[      [::[             [::[   [::[   [::[  [::[
+-      [::[       [::::[   [[[[   [::[   [::[   [[[[[[[[[[
+-      [::[          [::[         [::[   [::[         [::[
+-    [::::::[        [::[         [::[   [::[         [::[
+-    [[[[[[[[   [[[[[[[[          [[[[   [[[[         [[[[
+- -->
++
+ </head>
+ <body>
+-  <!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
++
++<p> dette er en start av datavisualiseringen</p>
++
++<div class="fetch"
++
++
+ 
+   <script>
++// Victor sin fetch
++    fetch('https://bacit.info/hwr/20211004102822-d384c4d99963326a54e2deef3b2b0f62.json')
++    .then(response => response.json())
++    .then(data => console.log(data));
++
++// Christian sin fetch
++    fetch('https://bacit.info/hwr/20211004103843-7f22691ddf4cb9741f6697c26f38e0ee.json')
++        .then(response => response.json())
++        .then(data => console.log(data));
+ 
+-    fetch('https://bacit.info/hwr/20210926134925-47352fbdecddd9a754001f4e4abbf40f.json')
+-    .then(response => response.json())
+-    .then(data => console.log(data));
++
++    // Audun sin fetch
++    fetch('https://bacit.info/hwr/20211004103946-739eb7907bf0f42cc454b89d0c9a85bc.json')
++        .then(response => response.json())
++        .then(data => console.log(data));
+ 
+-    fetch('https://bacit.info/hwr/20210926162029-a89356bb617d3bbf870649c08570427e.json')
+-    .then(response => response.json())
+-    .then(data => console.log(data));
++
++    //Hassan sin fetch
++    fetch('https://bacit.info/hwr/20211004104415-049780ff58b316f62538ba96f7e4568c.json')
++        .then(response => response.json())
++        .then(data => console.log(data));
++
++//Even sin fetch
++    fetch('https://bacit.info/hwr/20211004104945-6590c44a3b78920adad252f1430139be.json')
++        .then(response => response.json())
++        .then(data => console.log(data));
+ 
+   </script>
+ </body>

@@ -1,0 +1,135 @@
+Index: how-we-roll.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>HowWeRoll prototype (lagring)</title>\r\n    <!-- Med denne filen ønsker vi å bevise at vi kan samle inn data ... -->\r\n    <style>\r\n        nav {\r\n            background-color: #000000;\r\n            position: absolute;\r\n            top: 0;\r\n            width: 100%;\r\n            display: block;\r\n            text-align: center;\r\n            right:5px\r\n\r\n\r\n\r\n        }\r\n\r\n        nav ul {\r\n            list-style-type: none;\r\n            padding: 0;\r\n            margin: 0;\r\n            overflow: hidden;\r\n        }\r\n\r\n        nav li { /*navbar knappene*/\r\n            display: inline-block;\r\n            vertical-align: middle;\r\n            box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n            position: relative;\r\n            overflow: hidden;\r\n        }\r\n        nav li:before { /*Navbaren-animasjon*/\r\n            content: \"\";\r\n            position: absolute;\r\n            z-index: -1;\r\n            left: 50%;\r\n            right: 50%;\r\n            bottom: 0;\r\n            background: white;\r\n            height: 5px;\r\n            transition-duration: 0.5s; /* Hentet fra nett*/\r\n            transition-timing-function: ease-out;\r\n        }                                   /*legger til noe nytt, på det gamle css*/\r\n        nav li:hover:before, nav li:focus:before, nav li:active:before { /* Når hoover over med muspekern, blir det over aktivert*/\r\n            left: 0;\r\n            right: 0;\r\n        }\r\n\r\n        nav li a {\r\n            padding: 25px;\r\n            display: block;\r\n            height: 100%;\r\n            color: white;\r\n            text-decoration: none;\r\n        }\r\n      body {\r\n          background-image: url('https://images.pexels.com/photos/149988/pexels-photo-149988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');\r\n          background-repeat: no-repeat;\r\n      }\r\n\r\n      body {\r\n          color: ghostwhite;\r\n      }\r\n\r\n      h1 {\r\n          color: white;\r\n      }\r\n  \r\n      \r\n </style>\r\n\r\n</head>\r\n<body>\r\n<nav>\r\n    <ul>\r\n        <li><a href=\"index.html\">Hjem</a></li>\r\n        <li><a href=\"how-we-roll.html\">How we roll</a></li>\r\n        <li><a href=\"hwr-report.html\">HWR-Report</a></li>\r\n    </ul>\r\n</nav>\r\n\r\n  <!-- Her skrives alt innhold, som man ønsker å \"tegne\" på skjermen. -->\r\n  <!-- Issue se https://html.spec.whatwg.org/multipage/forms.html#introduction-4 -->\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n  <hr>\r\n    <form> <!--Her registreres brukeren som sender inn data-->\r\n      <p><label for=\"navn\">Navn</label>\r\n          <input type=\"text\" name=\"navn\" id=\"navn\" maxlength=\"20\" required /></p>\r\n\r\n      <p><label for=\"email\">Email</label>\r\n      <input type=\"email\" id=\"email\"\r\n              name=\"email\" id=\"email\" size=\"40\" required></p>\r\n\r\n\r\n\r\n      <p>HowWeRoll-parametre:</p>\r\n\r\n      <p>\r\n          <!-- dorn - day or night -->\r\n          <label for=\"dorn\">Morgenfugl</label>\r\n          <input type=\"range\" id=\"dorn\" name=\"dorn\" value=\"50\">\r\n          <label for=\"dorn\">Nattugle</label>\r\n      </p>\r\n\r\n      <p>\r\n          <!-- cora - cooperate or alone -->\r\n          <label for=\"cora\">Samarbeide</label>\r\n          <input type=\"range\" id=\"cora\" name=\"cora\" value=\"50\">\r\n          <label for=\"cora\">Jobbe individuelt</label>\r\n      </p>\r\n\r\n      <p>\r\n          <label>Hvilken personlighetstype er du?:\r\n              <select name=\"personlighet\">\r\n                      <option value=\"Introvert\">Introvert</option>\r\n                      <option value=\"Extrovert\">Ekstrovert</option>\r\n              </select>\r\n          </label>\r\n      </p>\r\n\r\n      <p>\r\n            <label>Hvor jobber du best?:</label>\r\n            <input type=\"radio\" id=\"hjemme\" name=\"Hvor jobber du best?\" value=\"hjemme\">\r\n            <label for=\"hjemme\">Hjemme</label>\r\n\r\n            <input type=\"radio\" id=\"kontor\" name=\"Hvor jobber du best?\" value=\"kontor\">\r\n            <label for=\"kontor\">Kontor</label>\r\n      </p>\r\n\r\n      <p>Når arbeider du mest effektivt?:</p>\r\n      <div>\r\n          <input type=\"radio\" id=\"under press\" name=\"Når arbeider du mest effektivt\" value=\"rolige omgivelser\"\r\n                 checked>\r\n          <label for=\"under press\">Under press</label>\r\n      </div>\r\n\r\n      <div>\r\n          <input type=\"radio\" id=\"rolige omgivelser\" name=\"Når arbeider du mest effektivt\" value=\"under press\">\r\n          <label for=\"rolige omgivelser\">I rolige omgivelser</label>\r\n      </div>\r\n\r\n      <p>Fysisk arbeid eller kontor?:</p>\r\n      <div>\r\n          <input type=\"radio\" id=\"fysisk\" name=\"fysisk eller kontor\" value=\"kontor\"\r\n                 checked>\r\n          <label for=\"fysisk\">Fysisk arbeid</label>\r\n      </div>\r\n      <div>\r\n          <input type=\"radio\" id=\"kontor\" name=\"fysisk eller kontor\" value=\"fysisk\">\r\n          <label for=\"kontor\">Kontor</label>\r\n      </div>\r\n      <button type=\"submit\"> Send Inn</button>\r\n    </form>\r\n  \r\n    <div class=\"results\">\r\n        <h2>Form Data</h2>\r\n        <pre></pre>\r\n    </div>\r\n  \r\n    <script>\r\n     // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2021-09-27)\r\n     // Example POST method implementation using fetch:\r\n     async function postData(url = '', data = {}) {\r\n         // Default options are marked with *\r\n         const response = await fetch(url, {\r\n             method: 'POST', // *GET, POST, PUT, DELETE, etc.\r\n             mode: 'cors', // no-cors, *cors, same-origin\r\n             cache: 'no-cache', // *default, no-cache, reload, force-cache,only-if-cached\r\n             credentials: 'same-origin', // include, *same-origin, omit\r\n             headers: {\r\n                 'Content-Type': 'application/json',\r\n                  // 'Content-Type': 'application/x-www-form-urlencoded',\r\n             },\r\n             redirect: 'follow', // manual, *follow, error\r\n             referrerPolicy: 'no-referrer', // no-referrer,*no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url\r\n             body: JSON.stringify(data) // body data type must match\"Content-Type\"header\r\n         });\r\n         return response.json(); // parses JSON response into native JavaScriptobjects\r\n     }\r\n  \r\n     function handleSubmit(event) {\r\n          event.preventDefault();\r\n          const data = new FormData(event.target);\r\n          const formJSON = Object.fromEntries(data.entries());\r\n          const results = document.querySelector('.results pre');\r\n          postData('https://bacit.info/', formJSON)\r\n          .then(data => {\r\n             results.innerText = JSON.stringify(data, null, 2);\r\n          });\r\n     }\r\n     const form = document.querySelector('form');\r\n     form.addEventListener('submit', handleSubmit);\r\n    </script>\r\n  </body>\r\n  </html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/how-we-roll.html b/how-we-roll.html
+--- a/how-we-roll.html	(revision 5666db6e8dc993244d92022e5cda415e0bb242b1)
++++ b/how-we-roll.html	(date 1633344780470)
+@@ -8,7 +8,7 @@
+     <!-- Med denne filen ønsker vi å bevise at vi kan samle inn data ... -->
+     <style>
+         nav {
+-            background-color: #000000;
++            background-color: #131e23;
+             position: absolute;
+             top: 0;
+             width: 100%;
+@@ -118,21 +118,23 @@
+       </p>
+ 
+       <p>
+-          <label>Hvilken personlighetstype er du?:
+-              <select name="personlighet">
+-                      <option value="Introvert">Introvert</option>
++          <!-- iore - introvert or ekstrovert -->
++          <label for="iore">>Hvilken personlighetstype er du?: </label>
++              <select name="personlighet"id="iore">
++                      <option value="Introvert">Introvert </option>
+                       <option value="Extrovert">Ekstrovert</option>
+               </select>
+-          </label>
++
+       </p>
+ 
+       <p>
+-            <label>Hvor jobber du best?:</label>
+-            <input type="radio" id="hjemme" name="Hvor jobber du best?" value="hjemme">
+-            <label for="hjemme">Hjemme</label>
++          <!--horo - home or office-->
++            <label for="horo">Hvor jobber du best?:</label>
++            <input type="radio" id="horo" name="Hvor jobber du best?" value="hjemme">
++            <label for="horo">Hjemme</label>
+ 
+-            <input type="radio" id="kontor" name="Hvor jobber du best?" value="kontor">
+-            <label for="kontor">Kontor</label>
++            <input type="radio" id="horo" name="Hvor jobber du best?" value="kontor">
++            <label for="horo">Kontor</label>
+       </p>
+ 
+       <p>Når arbeider du mest effektivt?:</p>
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>Gruppe 2A</title>\r\n    <style>\r\n        body {\r\n            background-color: #fff;\r\n            font-family: \"Arial\";\r\n            color: #333;\r\n            font-color: black;\r\n            margin: 0;\r\n        }\r\n\r\n         .visitkort {\r\n             border-radius: 25px;\r\n             background-color: black;\r\n             padding: 5px;\r\n             margin: 9px;\r\n             float: left;\r\n             text-align: left;\r\n             color: white;\r\n             width: 288px;\r\n             height: 143px;\r\n             box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px; /* Gir skygge til boksene. Hentet fra nett*/\r\n\r\n         }\r\n\r\n\r\n        nav {\r\n            background-color: #000000;\r\n            position: relative;\r\n            top: 0;\r\n            width: 100%;\r\n            display: block;\r\n            text-align: center;\r\n\r\n        }\r\n\r\n        nav ul {\r\n            list-style-type: none;\r\n            padding: 0;\r\n            margin: 0;\r\n            overflow: hidden;\r\n        }\r\n\r\n        nav li { /*navbar knappene*/\r\n            display: inline-block;\r\n            vertical-align: middle;\r\n            box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n            position: relative;\r\n            overflow: hidden;\r\n        }\r\n\r\n        nav li:before { /*Navbaren-animasjon*/\r\n            content: \"\";\r\n            position: absolute;\r\n            z-index: -1;\r\n            left: 50%;\r\n            right: 50%;\r\n            bottom: 0;\r\n            background: white;\r\n            height: 5px;\r\n            transition-duration: 0.5s; /* Hentet fra nett*/\r\n            transition-timing-function: ease-out;\r\n        }\r\n\r\n        /*legger til noe nytt, på det gamle css*/\r\n        nav li:hover:before, nav li:focus:before, nav li:active:before { /* Når hoover over med muspekern, blir det over aktivert*/\r\n            left: 0;\r\n            right: 0;\r\n        }\r\n\r\n        nav li a {\r\n            padding: 25px;\r\n            display: block;\r\n            height: 100%;\r\n            color: white;\r\n            text-decoration: none;\r\n        }\r\n        /*visittkort*/\r\n\r\n        .slideshow {\r\n            position: absolute;\r\n            margin-top: 250px;\r\n\r\n            animation: moveFirst 30s linear;\r\n            animation-iteration-count: infinite;\r\n        }\r\n        img{\r\n            width: 200px;\r\n            border-radius: 50%;\r\n        }\r\n\r\n        @keyframes moveFirst {\r\n            from {\r\n                left: -30%;\r\n                top: 200px;\r\n            }\r\n            to {\r\n                left: 100%;\r\n                top: 200px;\r\n            }\r\n        }\r\n        </style>\r\n\r\n</head>\r\n\r\n<body>\r\n    <nav>\r\n        <ul>\r\n           <li><a href=\"index.html\">Hjem</a></li>\r\n            <li><a href=\"how-we-roll.html\">How we roll</a></li>\r\n            <li><a href=\"hwr-report.html\">HWR-Report</a></li>\r\n        </ul>\r\n    </nav>\r\n\r\n<!-- Her skrives alt innhold, som man ønsker å \"tegne\" på skjermen. -->\r\n    <div class=\"debug\"></div>\r\n    <script>\r\n        // Her skrives kode i JavaScript som \"gir liv\" til bilde på skjermen.\r\n    </script>\r\n\r\n    <section class=\"allekortene\">\r\n        <div class=\"visitkort\">\r\n            <ul>\r\n                <p> Victor Rolf 19 <br>\r\n                 Victorjr@uia.no<br>\r\n                 Komandør<br>\r\n                Morgenfugl <br>\r\n                 IT-Sikkerhet <br>\r\n                 Irriterer meg fort <br>\r\n                 Partner i Painkiller AS <br>\r\n                </p>\r\n            </ul>\r\n\r\n\r\n        </div>\r\n <div class=\"visitkort\">\r\n<!-- audun sitt visittkort. -->\r\n     <ul>\r\n         <p>\r\n                 Audun Steen 21 <br>\r\n                 audunste@uia.no<br>\r\n                 Protagonist<br>\r\n                 Morgenfugl <br>\r\n                 Arbeidshest/karesmatisk  <br>\r\n                 Lite forkunskap innen it <br>\r\n                 Har et alter dedikert til Elon Musk <br>\r\n         </p>\r\n     </ul>\r\n </div>\r\n    <!-- Navn sitt visittkort. -->\r\n\r\n        <div class=\"visitkort\">\r\n            <ul>\r\n                <p> navn og alder <br>\r\n                    Skolemail<br>\r\n                    Personlighetstest<br>\r\n                    morgenfugl/natteravn <br>\r\n                    Sterk side <br>\r\n                    Svak side <br>\r\n                    Litt  om deg selv.  <br>\r\n                </p>\r\n            </ul>\r\n        </div>\r\n\r\n\r\n    <!-- Navn sitt visittkort. -->\r\n\r\n        <div class=\"visitkort\">\r\n            <ul>\r\n                <p> navn og alder <br>\r\n                    Skolemail<br>\r\n                    Personlighetstest<br>\r\n                    morgenfugl/natteravn <br>\r\n                    Sterk side <br>\r\n                    Svak side <br>\r\n                    Litt  om deg selv.  <br>\r\n                </p>\r\n            </ul>\r\n        </div>\r\n\r\n\r\n    <!-- Navn sitt visittkort. -->\r\n\r\n        <div class=\"visitkort\">\r\n            <ul>\r\n                <p> navn og alder <br>\r\n                    Skolemail<br>\r\n                    Personlighetstest<br>\r\n                    morgenfugl/natteravn <br>\r\n                    Sterk side <br>\r\n                    Svak side <br>\r\n                    Litt  om deg selv.  <br>\r\n                </p>\r\n            </ul>\r\n        </div>\r\n\r\n\r\n    <!-- Navn sitt visittkort. -->\r\n\r\n        <div class=\"visitkort\">\r\n            <ul>\r\n                <p> navn og alder <br>\r\n                    Skolemail<br>\r\n                    Personlighetstest<br>\r\n                    morgenfugl/natteravn <br>\r\n                    Sterk side <br>\r\n                    Svak side <br>\r\n                    Litt  om deg selv.  <br>\r\n                </p>\r\n            </ul>\r\n        </div>\r\n\r\n\r\n    <!-- Navn sitt visittkort. -->\r\n        <div class=\"visitkort\">\r\n            <ul>\r\n                <p> navn og alder <br>\r\n                    Skolemail<br>\r\n                    Personlighetstest<br>\r\n                    morgenfugl/natteravn <br>\r\n                    Sterk side <br>\r\n                    Svak side <br>\r\n                    Litt  om deg selv.  <br>\r\n                </p>\r\n            </ul>\r\n        </div>\r\n    </section>\r\n\r\n    <!--slideshow-->\r\n    <section class=\"slideshow\" >\r\n        <div class=\"Person1\">\r\n            <img src=\"https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg\" alt=\"\">\r\n\r\n            <img src=\"Bilder/Even.png\" alt=\"\">\r\n\r\n            <img src=\"Bilder/Hassan.PNG\" alt=\"\">\r\n\r\n            <img src=\"Bilder/Audun.png\" alt=\"\">\r\n        </div>\r\n    </section>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 5666db6e8dc993244d92022e5cda415e0bb242b1)
++++ b/index.html	(date 1633347851244)
+@@ -36,7 +36,6 @@
+             width: 100%;
+             display: block;
+             text-align: center;
+-
+         }
+ 
+         nav ul {
+@@ -168,20 +167,20 @@
+         </div>
+ 
+ 
+-    <!-- Navn sitt visittkort. -->
+-
+-        <div class="visitkort">
+-            <ul>
+-                <p> navn og alder <br>
+-                    Skolemail<br>
+-                    Personlighetstest<br>
+-                    morgenfugl/natteravn <br>
+-                    Sterk side <br>
+-                    Svak side <br>
+-                    Litt  om deg selv.  <br>
+-                </p>
+-            </ul>
+-        </div>
++    <!-- Christian sitt visittkort. -->
++    <div class="visitkort">
++        <ul>
++            <img src="Bilder/Christian.jpg">
++            <p> Christian Nguyen 19 <br>
++                ctnguyen@uia.no<br>
++                Talsmann<br>
++                natteravn <br>
++                Lærer fort <br>
++                Motivasjonen kommer og går <br>
++                Glad i volleyball <br>
++            </p>
++        </ul>
++    </div>
+ 
+ 
+     <!-- Navn sitt visittkort. -->
+@@ -231,17 +230,20 @@
+         </div>
+     </section>
+ 
+-    <!--slideshow-->
+-    <section class="slideshow" >
+-        <div class="Person1">
+-            <img src="https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg" alt="">
++<!--slideshow-->
++<section class="slideshow">
++    <div class="Person1">
++        <img src="https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg"
++             alt="bilde av dwayne the rock johnson">
+ 
+-            <img src="Bilder/Even.png" alt="">
++        <img src="Bilder/Even.png" alt="bilde av even">
+ 
+-            <img src="Bilder/Hassan.PNG" alt="">
++        <img src="Bilder/Hassan.PNG" alt="bilde av hassan">
+ 
+-            <img src="Bilder/Audun.png" alt="">
+-        </div>
+-    </section>
++        <img src="Bilder/Audun.png" alt="bilde av audun">
++
++        <img src="Bilder/chris.png" alt="bilde av chris">
++    </div>
++</section>
+ </body>
+ </html>

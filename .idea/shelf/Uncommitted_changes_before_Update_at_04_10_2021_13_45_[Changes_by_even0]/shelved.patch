@@ -1,0 +1,66 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>Gruppe 2A</title>\r\n    <style>\r\n        body {\r\n            background-color: #fff;\r\n            font-family: \"Arial\";\r\n            color: #333;\r\n            font-color: black;\r\n            margin: 0;\r\n        }\r\n\r\n         .visitkort {\r\n             border-radius: 25px;\r\n             background-color: black;\r\n             padding: 5px;\r\n             margin: 9px;\r\n             float: left;\r\n             text-align: left;\r\n             color: white;\r\n             width: 288px;\r\n             height: 143px;\r\n             box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px; /* Gir skygge til boksene. Hentet fra nett*/\r\n\r\n         }\r\n\r\n\r\n        nav {\r\n            background-color: #000000;\r\n            position: relative;\r\n            top: 0;\r\n            width: 100%;\r\n            display: block;\r\n            text-align: center;\r\n\r\n        }\r\n\r\n        nav ul {\r\n            list-style-type: none;\r\n            padding: 0;\r\n            margin: 0;\r\n            overflow: hidden;\r\n        }\r\n\r\n        nav li { /*navbar knappene*/\r\n            display: inline-block;\r\n            vertical-align: middle;\r\n            box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n            position: relative;\r\n            overflow: hidden;\r\n        }\r\n\r\n        nav li:before { /*Navbaren-animasjon*/\r\n            content: \"\";\r\n            position: absolute;\r\n            z-index: -1;\r\n            left: 50%;\r\n            right: 50%;\r\n            bottom: 0;\r\n            background: white;\r\n            height: 5px;\r\n            transition-duration: 0.5s; /* Hentet fra nett*/\r\n            transition-timing-function: ease-out;\r\n        }\r\n\r\n        /*legger til noe nytt, på det gamle css*/\r\n        nav li:hover:before, nav li:focus:before, nav li:active:before { /* Når hoover over med muspekern, blir det over aktivert*/\r\n            left: 0;\r\n            right: 0;\r\n        }\r\n\r\n        nav li a {\r\n            padding: 25px;\r\n            display: block;\r\n            height: 100%;\r\n            color: white;\r\n            text-decoration: none;\r\n        }\r\n        /*visittkort*/\r\n\r\n        .slideshow {\r\n            position: absolute;\r\n            margin-top: 250px;\r\n\r\n            animation: moveFirst 30s linear;\r\n            animation-iteration-count: infinite;\r\n        }\r\n        img{\r\n            width: 200px;\r\n            border-radius: 50%;\r\n        }\r\n\r\n        @keyframes moveFirst {\r\n            from {\r\n                left: -30%;\r\n                top: 200px;\r\n            }\r\n            to {\r\n                left: 100%;\r\n                top: 200px;\r\n            }\r\n        }\r\n        </style>\r\n\r\n</head>\r\n\r\n<body>\r\n    <nav>\r\n        <ul>\r\n           <li><a href=\"index.html\">Hjem</a></li>\r\n            <li><a href=\"how-we-roll.html\">How we roll</a></li>\r\n            <li><a href=\"hwr-report.html\">HWR-Report</a></li>\r\n        </ul>\r\n    </nav>\r\n\r\n<!-- Her skrives alt innhold, som man ønsker å \"tegne\" på skjermen. -->\r\n    <div class=\"debug\"></div>\r\n    <script>\r\n        // Her skrives kode i JavaScript som \"gir liv\" til bilde på skjermen.\r\n    </script>\r\n\r\n    <section class=\"allekortene\">\r\n        <div class=\"visitkort\">\r\n            <ul>\r\n                <p> Victor Rolf 19 <br>\r\n                 Victorjr@uia.no<br>\r\n                 Komandør<br>\r\n                Morgenfugl <br>\r\n                 IT-Sikkerhet <br>\r\n                 Irriterer meg fort <br>\r\n                 Partner i Painkiller AS <br>\r\n                </p>\r\n            </ul>\r\n\r\n\r\n        </div>\r\n <div class=\"visitkort\">\r\n<!-- audun sitt visittkort. -->\r\n     <ul>\r\n         <p>\r\n                 Audun Steen 21 <br>\r\n                 audunste@uia.no<br>\r\n                 Protagonist<br>\r\n                 Morgenfugl <br>\r\n                 Arbeidshest/karesmatisk  <br>\r\n                 Lite forkunskap innen it <br>\r\n                 Har et alter dedikert til Elon Musk <br>\r\n         </p>\r\n     </ul>\r\n </div>\r\n    <!-- Navn sitt visittkort. -->\r\n\r\n        <div class=\"visitkort\">\r\n            <ul>\r\n                <p> navn og alder <br>\r\n                    Skolemail<br>\r\n                    Personlighetstest<br>\r\n                    morgenfugl/natteravn <br>\r\n                    Sterk side <br>\r\n                    Svak side <br>\r\n                    Litt  om deg selv.  <br>\r\n                </p>\r\n            </ul>\r\n        </div>\r\n\r\n\r\n    <!-- Navn sitt visittkort. -->\r\n\r\n        <div class=\"visitkort\">\r\n            <ul>\r\n                <p> navn og alder <br>\r\n                    Skolemail<br>\r\n                    Personlighetstest<br>\r\n                    morgenfugl/natteravn <br>\r\n                    Sterk side <br>\r\n                    Svak side <br>\r\n                    Litt  om deg selv.  <br>\r\n                </p>\r\n            </ul>\r\n        </div>\r\n\r\n\r\n    <!-- Navn sitt visittkort. -->\r\n\r\n        <div class=\"visitkort\">\r\n            <ul>\r\n                <p> navn og alder <br>\r\n                    Skolemail<br>\r\n                    Personlighetstest<br>\r\n                    morgenfugl/natteravn <br>\r\n                    Sterk side <br>\r\n                    Svak side <br>\r\n                    Litt  om deg selv.  <br>\r\n                </p>\r\n            </ul>\r\n        </div>\r\n\r\n\r\n    <!-- Navn sitt visittkort. -->\r\n\r\n        <div class=\"visitkort\">\r\n            <ul>\r\n                <p> navn og alder <br>\r\n                    Skolemail<br>\r\n                    Personlighetstest<br>\r\n                    morgenfugl/natteravn <br>\r\n                    Sterk side <br>\r\n                    Svak side <br>\r\n                    Litt  om deg selv.  <br>\r\n                </p>\r\n            </ul>\r\n        </div>\r\n\r\n\r\n    <!-- Navn sitt visittkort. -->\r\n        <div class=\"visitkort\">\r\n            <ul>\r\n                <p> navn og alder <br>\r\n                    Skolemail<br>\r\n                    Personlighetstest<br>\r\n                    morgenfugl/natteravn <br>\r\n                    Sterk side <br>\r\n                    Svak side <br>\r\n                    Litt  om deg selv.  <br>\r\n                </p>\r\n            </ul>\r\n        </div>\r\n    </section>\r\n\r\n    <!--slideshow-->\r\n    <section class=\"slideshow\" >\r\n        <div class=\"Person1\">\r\n            <img src=\"https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg\" alt=\"\">\r\n\r\n            <img src=\"Bilder/Even.png\" alt=\"\">\r\n\r\n            <img src=\"Bilder/Hassan.PNG\" alt=\"\">\r\n\r\n            <img src=\"Bilder/Audun.png\" alt=\"\">\r\n        </div>\r\n    </section>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 5666db6e8dc993244d92022e5cda415e0bb242b1)
++++ b/index.html	(date 1633347851244)
+@@ -184,20 +184,21 @@
+         </div>
+ 
+ 
+-    <!-- Navn sitt visittkort. -->
++    <!-- Even sitt visittkort. -->
+ 
+-        <div class="visitkort">
+-            <ul>
+-                <p> navn og alder <br>
+-                    Skolemail<br>
+-                    Personlighetstest<br>
+-                    morgenfugl/natteravn <br>
+-                    Sterk side <br>
+-                    Svak side <br>
+-                    Litt  om deg selv.  <br>
+-                </p>
+-            </ul>
+-        </div>
++    <div class="visitkort">
++        <ul>
++            <img src="Bilder/Even.png">
++            <p> Even Broby Foss<br>
++                evenbf@uia.no<br>
++                Underholder<br>
++                morgenfugl<br>
++                Er flink til å lese<br>
++                Tiktok avhengig<br>
++                Brukt datamaskin daglig siden jeg var 4<br>
++            </p>
++        </ul>
++    </div>
+ 
+ 
+     <!-- Navn sitt visittkort. -->
+Index: HWR.GRUPPE2A.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>1. et sammendragav deres arbeid med “How WeRoll”-oppgaven\r\n2. Dokumentasjon av Analyse & Design\r\n   1. 27.09.2021 Vi har tidligere laget et visittkort/mockup \r\n   som vi har slettet i dag for å begynne med en ny mockup/visittkort \r\n   ettersom at den første var for rotete og at gruppen ikke fikk \r\n   samarbeided så effektivt på dokumentet. Vi har bestemt for å\r\n   lage en ny html fil der vi alle i gruppa skal diskutere og\r\n   kode sammen på lik nivå slik at vi får god læringsutbytte.\r\n   Det vi har gjort i dag er å laste opp de nødvendige filene\r\n   for prosjektet og diskutert hvordan vi skal fortsette videre.\r\n   2. 28.09.2021 Vi har i dag sittet sammen og koded litt med style på navbar, \r\n      og begynt knapt på body. Alle satt sammen og diskuterte koden. De som var \r\n      mer dyktigere kodere holdt litt tilbake og forklarte til gruppa. \r\n   3. 29.09.2021 vi delte oss inn i 2 grupper slik at alle kunne være med å bidra og lære.\r\n      en gruppe jobbet med visitkort og en gruppe jobbet how-we-roll nettsiden.\r\n      vi kodet sammen og alle fikk lagt inn forskjellige koder og jobbet med forms/visitkort.\r\n   4. 30.09.2021 Idag ble vi ferdig med rammen for visittkortet. og prøve å fikse bilde slideshow, vi vurderer og fortsette videre siden vi kom veldig nærme, men vi er usiker om vi skal ta det med i sluttproduktet. \r\n   Vi fant ut at det ble komplisert. Vi jobbet i gruppe over discord. De som var minst erfarene i koding lagde rammen for visittkortet, \r\n   og de som hadde mer kompetanse holdt på med slideshow, for å få lik utfordning på alle i gruppa.\r\n   kodet også inn navbar og stylet how-we-roll med bakgrunn og tekst farge.
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HWR.GRUPPE2A.md b/HWR.GRUPPE2A.md
+--- a/HWR.GRUPPE2A.md	(revision 5666db6e8dc993244d92022e5cda415e0bb242b1)
++++ b/HWR.GRUPPE2A.md	(date 1633347851269)
+@@ -17,4 +17,7 @@
+    4. 30.09.2021 Idag ble vi ferdig med rammen for visittkortet. og prøve å fikse bilde slideshow, vi vurderer og fortsette videre siden vi kom veldig nærme, men vi er usiker om vi skal ta det med i sluttproduktet. 
+    Vi fant ut at det ble komplisert. Vi jobbet i gruppe over discord. De som var minst erfarene i koding lagde rammen for visittkortet, 
+    og de som hadde mer kompetanse holdt på med slideshow, for å få lik utfordning på alle i gruppa.
+-   kodet også inn navbar og stylet how-we-roll med bakgrunn og tekst farge.
+\ No newline at end of file
++   kodet også inn navbar og stylet how-we-roll med bakgrunn og tekst farge. 
++   5. 04.10.2021 Vi fikk implementert fetch kodene Janis ga oss, slik at vi kan hente dataen vår fra databasen til Janis. Vi gjorde Visittkortene helt ferdig, og slideshowet under jobber vi fortsatt på.
++   Vi brukte code with me til å jobbe sammen.
++   Endret font slik at den blir lik på alle sidene. lastet opp bilder i github til slideshow/visittkort. endret farge på navbar.
+\ No newline at end of file

@@ -1,0 +1,29 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>Gruppe 2A</title>\r\n    <style>\r\n        body {\r\n            background-color: #fff;\r\n            margin: 0;\r\n            font-family: \"Arial\";\r\n            color: #333;\r\n        }\r\n\r\n        nav {\r\n            background-color: #333;\r\n            position: fixed;\r\n            top: 0;\r\n            width: 100%;\r\n            display: block;\r\n            text-align: center;\r\n        }\r\n\r\n        nav ul {\r\n            list-style-type: none;\r\n            padding: 0;\r\n            margin: 0;\r\n            overflow: hidden;\r\n        }\r\n\r\n        nav li { /*navbar knappene*/\r\n            display: inline-block;\r\n            vertical-align: middle;\r\n            box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n            position: relative;\r\n            overflow: hidden;\r\n        }\r\n        nav li:before { /*Navbaren-animasjon*/\r\n            content: \"\";\r\n            position: absolute;\r\n            z-index: -1;\r\n            left: 50%;\r\n            right: 50%;\r\n            bottom: 0;\r\n            background: white;\r\n            height: 4px;\r\n            transition-duration: 0.5s; /* Hentet fra nett*/\r\n            transition-timing-function: ease-out;\r\n        }                                   /*legger til noe nytt, på det gamle css*/\r\n        nav li:hover:before, nav li:focus:before, nav li:active:before { /* Når hoover over med muspekern, blir det over aktivert*/\r\n            left: 0;\r\n            right: 0;\r\n        }\r\n\r\n        nav li a {\r\n            padding: 25px;\r\n            display: block;\r\n            height: 100%;\r\n            color: white;\r\n            text-decoration: none;\r\n        }\r\n\r\n    </style>\r\n\r\n</head>\r\n\r\n<body style=\"background-color: #000000;\">\r\n<nav>\r\n    <ul>\r\n        <li><a href=\"index.html\">Hjem</a></li>\r\n        <li><a href=\"how-we-roll.html\">How we roll</a></li>\r\n        <li><a href=\"hwr-report.html\">HWR-Report</a></li>\r\n    </ul>\r\n</nav>\r\n<!-- Her skrives alt innhold, som man ønsker å \"tegne\" på skjermen. -->\r\n<div class=\"debug\"></div>\r\n<script>\r\n    // Her skrives kode i JavaScript som \"gir liv\" til bilde på skjermen.\r\n\r\n</script>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 046a021d5b5ca4dc8c49d4da3dc450e2c06898b3)
++++ b/index.html	(date 1632827615137)
+@@ -36,6 +36,7 @@
+             position: relative;
+             overflow: hidden;
+         }
++
+         nav li:before { /*Navbaren-animasjon*/
+             content: "";
+             position: absolute;
+@@ -47,7 +48,9 @@
+             height: 4px;
+             transition-duration: 0.5s; /* Hentet fra nett*/
+             transition-timing-function: ease-out;
+-        }                                   /*legger til noe nytt, på det gamle css*/
++        }
++
++        /*legger til noe nytt, på det gamle css*/
+         nav li:hover:before, nav li:focus:before, nav li:active:before { /* Når hoover over med muspekern, blir det over aktivert*/
+             left: 0;
+             right: 0;
