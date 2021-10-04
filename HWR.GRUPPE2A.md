@@ -17,4 +17,7 @@
    4. 30.09.2021 Idag ble vi ferdig med rammen for visittkortet. og prøve å fikse bilde slideshow, vi vurderer og fortsette videre siden vi kom veldig nærme, men vi er usiker om vi skal ta det med i sluttproduktet. 
    Vi fant ut at det ble komplisert. Vi jobbet i gruppe over discord. De som var minst erfarene i koding lagde rammen for visittkortet, 
    og de som hadde mer kompetanse holdt på med slideshow, for å få lik utfordning på alle i gruppa.
-   kodet også inn navbar og stylet how-we-roll med bakgrunn og tekst farge.
+   kodet også inn navbar og stylet how-we-roll med bakgrunn og tekst farge. 
+   5. 04.10.2021 Vi fikk implementert fetch kodene Janis ga oss, slik at vi kan hente dataen vår fra databasen til Janis. Vi gjorde Visittkortene helt ferdig, og slideshowet under jobber vi fortsatt på.
+   Vi brukte code with me til å jobbe sammen.
+   Endret font slik at den blir lik på alle sidene. lastet opp bilder i github til slideshow/visittkort. endret farge på navbar.
