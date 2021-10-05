@@ -58,22 +58,22 @@
             color: white;
             text-decoration: none;
         }
-      body {
-          background-image: url('https://images.pexels.com/photos/149988/pexels-photo-149988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-          background-repeat: no-repeat;
-      }
+        body {
+            background-image: url('https://images.pexels.com/photos/149988/pexels-photo-149988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+            background-repeat: no-repeat;
+        }
 
-      body {
-          color: ghostwhite;
-          font-family: "Arial";
-      }
+        body {
+            color: ghostwhite;
+            font-family: "Arial";
+        }
 
-      h1 {
-          color: white;
-      }
-  
-      
- </style>
+        h1 {
+            color: white;
+        }
+
+
+    </style>
 
 </head>
 <body>
@@ -85,122 +85,122 @@
     </ul>
 </nav>
 
-  <!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
-  <!-- Issue se https://html.spec.whatwg.org/multipage/forms.html#introduction-4 -->
-    <br>
-    <br>
-    <br>
-    <br>
-  <hr>
-    <form> <!--Her registreres brukeren som sender inn data-->
-      <p><label for="navn">Navn</label>
-          <input type="text" name="navn" id="navn" maxlength="20" required /></p>
+<!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
+<!-- Issue se https://html.spec.whatwg.org/multipage/forms.html#introduction-4 -->
+<br>
+<br>
+<br>
+<br>
+<hr>
+<form> <!--Her registreres brukeren som sender inn data-->
+    <p><label for="navn">Navn</label>
+        <input type="text" name="navn" id="navn" maxlength="20" required /></p>
 
-      <p><label for="email">Email</label>
-      <input type="email" id="email"
-              name="email" id="email" size="40" required></p>
+    <p><label for="email">Email</label>
+        <input type="email" id="email"
+               name="email" id="email" size="40" required></p>
 
 
 
-      <p>HowWeRoll-parametre:</p>
+    <p>HowWeRoll-parametre:</p>
 
-      <p>
-          <!-- dorn - day or night -->
-          <label for="dorn">Morgenfugl</label>
-          <input type="range" id="dorn" name="dorn" value="50">
-          <label for="dorn">Nattugle</label>
-      </p>
+    <p>
+        <!-- dorn - day or night -->
+        <label for="dorn">Morgenfugl</label>
+        <input type="range" id="dorn" name="dorn" value="50">
+        <label for="dorn">Nattugle</label>
+    </p>
 
-      <p>
-          <!-- cora - cooperate or alone -->
-          <label for="cora">Samarbeide</label>
-          <input type="range" id="cora" name="cora" value="50">
-          <label for="cora">Jobbe individuelt</label>
-      </p>
+    <p>
+        <!-- cora - cooperate or alone -->
+        <label for="cora">Samarbeide</label>
+        <input type="range" id="cora" name="cora" value="50">
+        <label for="cora">Jobbe individuelt</label>
+    </p>
 
-      <p>
-          <!-- iore - introvert or ekstrovert -->
-          <label for="iore">>Hvilken personlighetstype er du?: </label>
-              <select name="personlighet"id="iore">
-                      <option value="Introvert">Introvert </option>
-                      <option value="Extrovert">Ekstrovert</option>
-              </select>
+    <p>
+        <!-- iore - introvert or ekstrovert -->
+        <label for="iore">>Hvilken personlighetstype er du?: </label>
+        <select name="personlighet"id="iore">
+            <option value="Introvert">Introvert </option>
+            <option value="Extrovert">Ekstrovert</option>
+        </select>
 
-      </p>
+    </p>
 
-      <p>
-          <!--horo - home or office-->
-            <label for="horo">Hvor jobber du best?:</label>
-            <input type="radio" id="horo" name="Hvor jobber du best?" value="hjemme">
-            <label for="horo">Hjemme</label>
+    <p>
+        <!--horo - home or office-->
+        <label for="horo">Hvor jobber du best?:</label>
+        <input type="radio" id="horo" name="Hvor jobber du best?" value="hjemme">
+        <label for="horo">Hjemme</label>
 
-            <input type="radio" id="office" name="Hvor jobber du best?" value="kontor">
-            <label for="office">Kontor</label>
-      </p>
+        <input type="radio" id="office" name="Hvor jobber du best?" value="kontor">
+        <label for="office">Kontor</label>
+    </p>
 
-      <p>Når arbeider du mest effektivt?:</p>
-      <div>
-          <input type="radio" id="under press" name="Når arbeider du mest effektivt" value="rolige omgivelser"
-                 checked>
-          <label for="under press">Under press</label>
-      </div>
-
-      <div>
-          <input type="radio" id="rolige omgivelser" name="Når arbeider du mest effektivt" value="under press">
-          <label for="rolige omgivelser">I rolige omgivelser</label>
-      </div>
-
-      <p>Fysisk arbeid eller kontor?:</p>
-      <div>
-          <input type="radio" id="fysisk" name="fysisk eller kontor" value="kontor"
-                 checked>
-          <label for="fysisk">Fysisk arbeid</label>
-      </div>
-      <div>
-          <input type="radio" id="kontor" name="fysisk eller kontor" value="fysisk">
-          <label for="kontor">Kontor</label>
-      </div>
-      <button type="submit"> Send Inn</button>
-    </form>
-  
-    <div class="results">
-        <h2>Form Data</h2>
-        <pre></pre>
+    <p>Når arbeider du mest effektivt?:</p>
+    <div>
+        <input type="radio" id="under press" name="Når arbeider du mest effektivt" value="rolige omgivelser"
+               checked>
+        <label for="under press">Under press</label>
     </div>
-  
-    <script>
-     // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2021-09-27)
-     // Example POST method implementation using fetch:
-     async function postData(url = '', data = {}) {
-         // Default options are marked with *
-         const response = await fetch(url, {
-             method: 'POST', // *GET, POST, PUT, DELETE, etc.
-             mode: 'cors', // no-cors, *cors, same-origin
-             cache: 'no-cache', // *default, no-cache, reload, force-cache,only-if-cached
-             credentials: 'same-origin', // include, *same-origin, omit
-             headers: {
-                 'Content-Type': 'application/json',
-                  // 'Content-Type': 'application/x-www-form-urlencoded',
-             },
-             redirect: 'follow', // manual, *follow, error
-             referrerPolicy: 'no-referrer', // no-referrer,*no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-             body: JSON.stringify(data) // body data type must match"Content-Type"header
-         });
-         return response.json(); // parses JSON response into native JavaScriptobjects
-     }
-  
-     function handleSubmit(event) {
-          event.preventDefault();
-          const data = new FormData(event.target);
-          const formJSON = Object.fromEntries(data.entries());
-          const results = document.querySelector('.results pre');
-          postData('https://bacit.info/', formJSON)
-          .then(data => {
-             results.innerText = JSON.stringify(data, null, 2);
-          });
-     }
-     const form = document.querySelector('form');
-     form.addEventListener('submit', handleSubmit);
-    </script>
-  </body>
-  </html>
+
+    <div>
+        <input type="radio" id="rolige omgivelser" name="Når arbeider du mest effektivt" value="under press">
+        <label for="rolige omgivelser">I rolige omgivelser</label>
+    </div>
+
+    <p>Fysisk arbeid eller kontor?:</p>
+    <div>
+        <input type="radio" id="fysisk" name="fysisk eller kontor" value="kontor"
+               checked>
+        <label for="fysisk">Fysisk arbeid</label>
+    </div>
+    <div>
+        <input type="radio" id="kontor" name="fysisk eller kontor" value="fysisk">
+        <label for="kontor">Kontor</label>
+    </div>
+    <button type="submit"> Send Inn</button>
+</form>
+
+<div class="results">
+    <h2>Form Data</h2>
+    <pre></pre>
+</div>
+
+<script>
+    // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2021-09-27)
+    // Example POST method implementation using fetch:
+    async function postData(url = '', data = {}) {
+        // Default options are marked with *
+        const response = await fetch(url, {
+            method: 'POST', // *GET, POST, PUT, DELETE, etc.
+            mode: 'cors', // no-cors, *cors, same-origin
+            cache: 'no-cache', // *default, no-cache, reload, force-cache,only-if-cached
+            credentials: 'same-origin', // include, *same-origin, omit
+            headers: {
+                'Content-Type': 'application/json',
+                // 'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            redirect: 'follow', // manual, *follow, error
+            referrerPolicy: 'no-referrer', // no-referrer,*no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+            body: JSON.stringify(data) // body data type must match"Content-Type"header
+        });
+        return response.json(); // parses JSON response into native JavaScriptobjects
+    }
+
+    function handleSubmit(event) {
+        event.preventDefault();
+        const data = new FormData(event.target);
+        const formJSON = Object.fromEntries(data.entries());
+        const results = document.querySelector('.results pre');
+        postData('https://bacit.info/', formJSON)
+            .then(data => {
+                results.innerText = JSON.stringify(data, null, 2);
+            });
+    }
+    const form = document.querySelector('form');
+    form.addEventListener('submit', handleSubmit);
+</script>
+</body>
+</html>

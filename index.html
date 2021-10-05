@@ -14,19 +14,27 @@
             margin: 0;
         }
 
-         .visitkort {
-             border-radius: 25px;
-             background-color: #131e23;
-             padding: 5px;
-             margin: 9px;
-             float: left;
-             text-align: left;
-             color: white;
-             width: 288px;
-             height: 143px;
-             box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px; /* Gir skygge til boksene. Hentet fra nett*/
+        .visitkort {
+            border-radius: 25px;
+            background-color: #131e23;
+            padding: 5px;
+            margin: 9px;
+            float: left;
+            text-align: left;
+            color: white;
+            width: 350px;
+            height: 180px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px; /* Gir skygge til boksene. Hentet fra nett*/
+        }
 
-         }
+        img {
+            width: 100px;
+            height: 150px;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            border-radius: 50%;
+        }
 
 
         nav {
@@ -36,7 +44,6 @@
             width: 100%;
             display: block;
             text-align: center;
-
         }
 
         nav ul {
@@ -80,6 +87,7 @@
             color: white;
             text-decoration: none;
         }
+
         /*visittkort*/
 
         .slideshow {
@@ -89,164 +97,168 @@
             animation: moveFirst 30s linear;
             animation-iteration-count: infinite;
         }
-        img{
-            width: 200px;
-            border-radius: 50%;
-        }
+
 
         @keyframes moveFirst {
             from {
                 left: -30%;
-                top: 200px;
+                top: 500px;
             }
             to {
                 left: 100%;
-                top: 200px;
+                top: 500px;
             }
         }
-        </style>
+    </style>
 
 </head>
 
 <body>
-    <nav>
-        <ul>
-           <li><a href="index.html">Hjem</a></li>
-            <li><a href="how-we-roll.html">How we roll</a></li>
-            <li><a href="hwr-report.html">HWR-Report</a></li>
-        </ul>
-    </nav>
+<nav>
+    <ul>
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="how-we-roll.html">How we roll</a></li>
+        <li><a href="hwr-report.html">HWR-Report</a></li>
+    </ul>
+</nav>
 
 <!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
-    <div class="debug"></div>
-    <script>
-        // Her skrives kode i JavaScript som "gir liv" til bilde på skjermen.
-    </script>
+<div class="debug"></div>
+<script>
+    // Her skrives kode i JavaScript som "gir liv" til bilde på skjermen.
+</script>
 
-    <section class="allekortene">
-        <!--Victor sitt visittkort-->
-        <div class="visitkort">
-            <ul>
-                <p> Victor Rolf 19 <br>
-                 Victorjr@uia.no<br>
-                 Komandør<br>
+<section class="allekortene">
+    <!--Victor sitt visittkort-->
+    <div class="visitkort">
+        <ul>
+            <img src="Bilder/image_6487327.JPG" alt="">
+
+            <p> Victor Rolf 19 <br>
+                Victorjr@uia.no<br>
+                Komandør<br>
                 Morgenfugl <br>
-                 IT-Sikkerhet <br>
-                 Irriterer meg fort <br>
-                 Partner i Painkiller AS <br>
-                </p>
-            </ul>
+                Sterkhet: IT-Sikkerhet <br>
+                Svakhet: Irriterer meg fort <br>
+                Partner i Painkiller AS <br>
+            </p>
+        </ul>
 
 
-        </div>
- <div class="visitkort">
-<!-- audun sitt visittkort. -->
-     <ul>
-         <p>
-                 Audun Steen 21 <br>
-                 audunste@uia.no<br>
-                 Protagonist<br>
-                 Morgenfugl <br>
-                 Arbeidshest/karesmatisk  <br>
-                 Lite forkunskap innen it <br>
-                 Har et alter dedikert til Elon Musk <br>
-         </p>
-     </ul>
- </div>
-    <!-- Navn sitt visittkort. -->
+    </div>
+    <!-- audun sitt visittkort. -->
+    <div class="visitkort">
+        <ul>
+            <img src="Bilder/Audun.png" alt="">
+            <p>
+                Audun Steen 21 <br>
+                audunste@uia.no<br>
+                Protagonist<br>
+                Morgenfugl <br>
+                Sterkhet: Arbeidshest <br>
+                Svakhet: Distre <br>
+                Har et alter dedikert til Elon Musk <br>
+            </p>
+        </ul>
+    </div>
+    <!-- Chris sitt visittkort. -->
+    <div class="visitkort">
+        <ul>
+            <img src="Bilder/chris.png" alt="">
+            <p> Christoffer Tønnessen <br>
+                Skolemail<br>
+                Consul<br>
+                natteravn <br>
+                Sterkhet: Engasjert <br>
+                Svakhet: Dårlig til å kode<br>
+                Up and coming genious coder <br>
+            </p>
+        </ul>
+    </div>
 
-        <div class="visitkort">
-            <ul>
-                <p> Christoffer Tønnessen <br>
-                    Skolemail<br>
-                    Consul<br>
-                    natteravn <br>
-                    Engasjert <br>
-                    Dårlig til å kode<br>
-                    Up and coming genious coder  <br>
-                </p>
-            </ul>
-        </div>
 
-
-    <!-- Navn sitt visittkort. -->
-
-        <div class="visitkort">
-            <ul>
-                <p> navn og alder <br>
-                    Skolemail<br>
-                    Personlighetstest<br>
-                    morgenfugl/natteravn <br>
-                    Sterk side <br>
-                    Svak side <br>
-                    Litt  om deg selv.  <br>
-                </p>
-            </ul>
-        </div>
+    <!-- Hassan sitt visittkort. -->
+    <div class="visitkort">
+        <ul>
+            <img src="Bilder/Hassan.PNG" alt="">
+            <p> Hassan 19 <br>
+                hassanh@uia.no<br>
+                Forkjemper<br>
+                Natteravn <br>
+                Sterkhet: CSS, HTML og JS <br>
+                Svakhet: Lett ufokusert<br>
+                Elsker å spille på konsoll <br>
+            </p>
+        </ul>
+    </div>
 
 
     <!-- Christian sitt visittkort. -->
+    <div class="visitkort">
+        <ul>
+            <img src="Bilder/Christian.jpg" alt="">
 
-        <div class="visitkort">
-            <ul>
-                <p> Christian Nguyen 19 <br>
-                    ctnguyen@uia.no<br>
-                    Talsmann<br>
-                    natteravn <br>
-                    Lærer fort <br>
-                    Motivasjonen er varierende <br>
-                    Er glad i volleyball <br>
-                </p>
-            </ul>
-        </div>
+            <p> Christian Nguyen 19 <br>
+                ctnguyen@uia.no<br>
+                Talsmann<br>
+                natteravn <br>
+                Sterkhet: Lærer fort <br>
+                Svakhet: Motivasjonen er varierende <br>
+                Er glad i volleyball <br>
+            </p>
+        </ul>
+    </div>
 
 
     <!-- Isak sitt visittkort. -->
-
-        <div class="visitkort">
-            <ul>
-                <p> Isak Meen 19 <br>
-                    isakkm@uia.no<br>
-                    Leder<br>
-                    Natteravn <br>
-                    Logisk tenkning <br>
-                    Prokrastinering <br>
-                    Selverklært kebab entusiast  <br>
-                </p>
-            </ul>
-        </div>
-
-
-    <!-- Navn sitt visittkort. -->
-        <div class="visitkort">
-            <ul>
-                <p> navn og alder <br>
-                    Skolemail<br>
-                    Personlighetstest<br>
-                    morgenfugl/natteravn <br>
-                    Sterk side <br>
-                    Svak side <br>
-                    Litt  om deg selv.  <br>
-                </p>
-            </ul>
-        </div>
-    </section>
-
-    <!--slideshow-->
-    <section class="slideshow" >
-        <div class="Person1">
-            <img src="Bilder/image_6487327.JPG" alt="">
-
-            <img src="Bilder/Even.png" alt="">
-
-            <img src="Bilder/Hassan.PNG" alt="">
-
-            <img src="Bilder/Audun.png" alt="">
-
-            <img src="Bilder/chris.png" alt="">
-
+    <div class="visitkort">
+        <ul>
             <img src="Bilder/Isak.jpg" alt="">
-        </div>
-    </section>
+            <p> Isak Meen 19 <br>
+                isakkm@uia.no<br>
+                Leder<br>
+                Natteravn <br>
+                Sterkhet: Logisk tenkning <br>
+                Svakhet: Prokrastinering <br>
+                Selverklært kebab entusiast <br>
+            </p>
+        </ul>
+    </div>
+
+
+    <!-- Even sitt visittkort. -->
+    <div class="visitkort">
+        <ul>
+            <img src="Bilder/Even.png" alt="">
+            <p> Even og alder <br>
+                Skolemail<br>
+                Personlighetstest<br>
+                morgenfugl/natteravn <br>
+                Sterkhet: <br>
+                Svakhet: <br>
+                Litt om deg selv. <br>
+            </p>
+        </ul>
+    </div>
+</section>
+
+<!--slideshow-->
+<section class="slideshow">
+    <div class="Person1">
+        <img src="Bilder/image_6487327.JPG" alt="">
+
+        <img src="Bilder/Even.png" alt="">
+
+        <img src="Bilder/Hassan.PNG" alt="">
+
+        <img src="Bilder/Audun.png" alt="">
+
+        <img src="Bilder/chris.png" alt="">
+
+        <img src="Bilder/Isak.jpg" alt="">
+
+        <img src="Bilder/chris.png" alt="">
+    </div>
+</section>
 </body>
 </html>
