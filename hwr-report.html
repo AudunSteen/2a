@@ -106,7 +106,6 @@ div{
   <div class="dorn">Morgenfugl/Nattugle?: </div>
   <div class="cora">Samarbeide eller Jobbe individuelt: </div>
   <div class="personlighet">personlighetstype: </div>
-  <div class="horo">Hvor jobber du best?:</div>
   <div class="fysisk">fysisk eller kontor: </div>
   <div class="under">Når arbeider du mest effektivt?: </div>
   
@@ -176,7 +175,7 @@ div{
 
   <script>
 // Victor sin fetch
-fetch('https://bacit.info/hwr/20211004102822-d384c4d99963326a54e2deef3b2b0f62.json')
+fetch('https://bacit.info/hwr/20211006131455-699d7ce43b68c28fc08ad2e4c1d29341.json')
       .then((response) => {
         return response.json()
       })
@@ -186,9 +185,8 @@ fetch('https://bacit.info/hwr/20211004102822-d384c4d99963326a54e2deef3b2b0f62.js
         document.querySelector("#Victor .dorn").innerHTML += data.dorn
         document.querySelector("#Victor .cora").innerHTML += data.cora
         document.querySelector("#Victor .personlighet").innerHTML += data.personlighet
-        document.querySelector("#Victor .horo").innerHTML += data.horo
-        document.querySelector("#Victor .fysisk").innerHTML += data.fysisk
-        document.querySelector("#Victor .under").innerHTML += data.under
+        document.querySelector("#Victor .fysisk").innerHTML += data.fysiskellerkontor
+        document.querySelector("#Victor .under").innerHTML += data.Nårarbeiderdumesteffektivt
 
 
 
