@@ -24,7 +24,6 @@
             color: white;
             width: 350px;
             height: 180px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px; /* Gir skygge til boksene. Hentet fra nett*/
         }
 
         img {
@@ -61,24 +60,6 @@
             overflow: hidden;
         }
 
-        nav li:before { /*Navbaren-animasjon*/
-            content: "";
-            position: absolute;
-            z-index: -1;
-            left: 50%;
-            right: 50%;
-            bottom: 0;
-            background: white;
-            height: 5px;
-            transition-duration: 0.5s; /* Hentet fra nett*/
-            transition-timing-function: ease-out;
-        }
-
-        /*legger til noe nytt, på det gamle css*/
-        nav li:hover:before, nav li:focus:before, nav li:active:before { /* Når hoover over med muspekern, blir det over aktivert*/
-            left: 0;
-            right: 0;
-        }
 
         nav li a {
             padding: 25px;
@@ -230,13 +211,13 @@
     <div class="visitkort">
         <ul>
             <img src="Bilder/Even.png" alt="">
-            <p> Even og alder <br>
-                Skolemail<br>
-                Personlighetstest<br>
-                morgenfugl/natteravn <br>
-                Sterkhet: <br>
-                Svakhet: <br>
-                Litt om deg selv. <br>
+            <p> Even 18 <br>
+                evenbf@uia.no<br>
+                Underholder<br>
+                Morgenfugl <br>
+                Sterkhet: Lesehest <br>
+                Svakhet: 2 for en på heidis hver torsdag <br>
+                Jeg liker pannekaker <br>
             </p>
         </ul>
     </div>
