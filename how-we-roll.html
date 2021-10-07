@@ -7,63 +7,81 @@
     <title>HowWeRoll prototype (lagring)</title>
     <!-- Med denne filen ønsker vi å bevise at vi kan samle inn data ... -->
     <style>
-      body, .button, .tick {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: sans-serif;
-}
+        nav {
+            background-color: #131e23;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: block;
+            text-align: center;
+            right:8px
 
-body {
-  width: 40%;
-  height: 90vh;
-  font-family: 'Times New Roman', Times, serif;
+        }
 
-}
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
 
-.button {
-  width: 150px;
-  height: 40px;
-  background: grey;
-  border-radius: 6px;
-  transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
-  font-size: x-small;
-}
-.button svg {
-  transform: rotate(180deg);
-  transition: all .5s;
-}
+        nav li { /*navbar knappene*/
+            display: inline-block;
+            vertical-align: middle;
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            position: relative;
+            overflow: hidden;
+        }
+        nav li:before { /*Navbaren-animasjon*/
+            content: "";
+            position: absolute;
+            z-index: -1;
+            left: 50%;
+            right: 50%;
+            bottom: 0;
+            background: white;
+            height: 5px;
+            transition-duration: 0.5s; /* Hentet fra nett*/
+            transition-timing-function: ease-out;
+        }                                   /*legger til noe nytt, på det gamle css*/
+        nav li:hover:before, nav li:focus:before, nav li:active:before { /* Når hoover over med muspekern, blir det over aktivert*/
+            left: 0;
+            right: 0;
+        }
 
-.button__circle {
-  width: 80px;
-  height: 80px;
-  background: green;
-  border-radius: 50%;
-  transform: rotate(-180deg);
-}
+        nav li a {
+            padding: 25px;
+            display: block;
+            height: 100%;
+            color: white;
+            text-decoration: none;
+        }
+        body {
+            background-image: url('https://images.pexels.com/photos/149988/pexels-photo-149988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+            background-repeat: no-repeat;
+        }
 
-.button:hover {
-  cursor: pointer;
-}
+        body {
+            color: ghostwhite;
+            font-family: "Arial";
+        }
 
-.tick {
-  color: white;
-  font-size: 2em;
-  transition: all .9s;
-}
-      body {
-          background-image: url('https://images.pexels.com/photos/149988/pexels-photo-149988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-          background-repeat: no-repeat;
-      }
+        h1 {
+            color: white;
+        }
 
-      body {
-          color: ghostwhite;
-      }
 
-      h1 {
-          color: white;
-      }
- </style>
+    </style>
+
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="how-we-roll.html">How we roll</a></li>
+        <li><a href="hwr-report.html">HWR-Report</a></li>
+    </ul>
+</nav>
 
 </head>
 <body>
