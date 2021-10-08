@@ -38,7 +38,6 @@ her har vi kodet inn en submit knapp som sender data videre til en server.
 - ved å ta "trxid" og "time" så har vi hardkodet dette inn i "HWR-Report" for å vise resultatene til hvert
 enkelt gruppemedlem så oversiktlig som mulig.
 
-
 Tidslinje for hva vi har gjort HWR og visittkort:
 30. August - Repository for gruppe 2A ble opprettet
 6. September - lagt til html, CSS og JS dokument. Og opprettet github pages. Booket grupperom med tavle og gikk gjennom sammen hvordan nettsiden vår skulle se ut. Vi tegnet enkelt design på tavlen og prøvde å følge det konseptet vi så for oss. Her planla vi dårlig og brukte ikke wireframes.
