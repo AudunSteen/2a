@@ -18,6 +18,7 @@
    Vi fant ut at det ble komplisert. Vi jobbet i gruppe over discord. De som var minst erfarene i koding lagde rammen for visittkortet, 
    og de som hadde mer kompetanse holdt på med slideshow, for å få lik utfordning på alle i gruppa.
    kodet også inn navbar og stylet how-we-roll med bakgrunn og tekst farge.
+   5. 
    5. 04.10.2021 Brukte "code with me" hvor alle bidro med koder. vi gjorde ferdig visittkortene. 
    la inn bilder i github og lastet disse opp i koden. Vi har også slettet og ryddet en del i koder 
    som ikke trenger å være der. Da noen brukte MAC og noen brukte PC i "code with me" så hadde vi
@@ -36,3 +37,31 @@ litt informasjon om seg selv og svare på noen spørsmål om hvordan du jobber i
 her har vi kodet inn en submit knapp som sender data videre til en server.
 - ved å ta "trxid" og "time" så har vi hardkodet dette inn i "HWR-Report" for å vise resultatene til hvert
 enkelt gruppemedlem så oversiktlig som mulig.
+
+
+Tidslinje for hva vi har gjort HWR og visittkort:
+30. August - Repository for gruppe 2A ble opprettet
+6. September - lagt til html, CSS og JS dokument. Og opprettet github pages. Booket grupperom med tavle og gikk gjennom sammen hvordan nettsiden vår skulle se ut. Vi tegnet enkelt design på tavlen og prøvde å følge det konseptet vi så for oss. Her planla vi dårlig og brukte ikke wireframes.
+12. September -  Første visittkort ble opprettet. En enkel nettside med boks som inneholdt navn, litt info og et bilde. Dette var en god trening for de om var nye til koding og CSS.
+13. September - Resten lagde visittkort.
+20. September - Gjorde nettsiden mer avansert med CSS style. Brukte JS til å lage en fungerende knapp.
+23. September - Slettet alle dokumenter. Gruppen tok en kollektiv beslutning om å slette det vi hadde lagd for å starte på nytt og lage en ny og bedre versjon.  Grunnen til dette var fordi vi følte vi kunne lage en bedre nettside og det ble ikke slik vi hadde sett for oss.
+
+Startet fra scratch og lagde wireframes og design til nettsiden. Vi lærte av feilene våre med å planlegge dårlig. Så vi planla bedre og jobbet mere effektivt som en gruppe.
+Opprettet intex.html, how-we-roll.html, HWR-report.html, readme.md,
+27.	September - La til Navbar HWR.
+28.	September - Fjernet unødvendig kode. Skrev inn kommentar for koden.
+29.	September - Delte gruppen i to, en gruppe jobbet med visittkort og  en Jobbet med HWR- forms.
+       Startet HWR med å forke how-we-roll fra @digitnow
+       Endret på noen spørsmål, la til passende bakgrunn
+
+La til bakgrunn, navbar og boksene til visittkortet.
+Startet på slideshow for visittkort.
+Lagde en mal for visittkort, med bilde. La til hva som skulle være i visittkort.
+1.	Oktober - Ryddet opp i unødvendig kode i begge prosjektene
+4.	Oktober - oppdaterte html filen og byttet bakgrunn
+5.	Oktober - Gjorde visittkort 90% ferdig.
+Startet på visualisering av data. Og print av data ved bruk av Fetch og JSON fil.
+6.	Oktober - gjorde det mulig å legge inn data i HWR-forms.
+7.	Gjorde alt helt ferdig ved å fjerne CSS kode og fikse blant annet navbar, endre litt på design, fikse slideshow, skrivefeil.  Generelt finpussing. 
+
