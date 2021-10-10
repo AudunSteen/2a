@@ -24,8 +24,8 @@
    som ikke trenger å være der. Da noen brukte MAC og noen brukte PC i "code with me" så hadde vi
    store problemer med å pushe opp koden, da PC bruker "CRLF" og MAC bruker "LF" som line Seperator.
    Vi løste dette med å comitte en og en person sin endring.
-   6. DATO = ... Brukte "code with me" for å kode visualisering av dataen innhentet fra HWR form. Vi valgte å løse oppgaven
-   ved å bruke documentQuery selector og innerHtml for å hente ut dataen og visualisere det i forskjellige diver som vi ga styles.
+   6. 06.10.2021 Brukte "code with me" for å kode visualisering av dataen innhentet fra HWR form. Vi valgte å løse oppgaven
+   ved å bruke documentQueryselector og innerHtml for å hente ut dataen og visualisere det i forskjellige diver som vi ga styles.
    vi valgte å bruke denne metoden, fordi den gir et ryddig design og visualiserng. Denne ble også designet før det ble oppgit løsningsforslag
    av Janis, og derfor er en ikke lik noen av eksemplene gitt. Men vi synes absloutt det er et ryddig design, og visualiserer data outputten godt. 
 
@@ -66,6 +66,6 @@ Lagde en mal for visittkort, med bilde. La til hva som skulle være i visittkort
 4.	Oktober - oppdaterte html filen og byttet bakgrunn
 5.	Oktober - Gjorde visittkort 90% ferdig.
 Startet på visualisering av data. Og print av data ved bruk av Fetch og JSON fil.
-6.	Oktober - gjorde det mulig å legge inn data i HWR-forms.
-7.	Gjorde alt helt ferdig ved å fjerne CSS kode og fikse blant annet navbar, endre litt på design, fikse slideshow, skrivefeil.  Generelt finpussing. 
+6.	Oktober - gjorde det mulig å legge inn data i HWR-forms. Samt vise data outputten i egene seksjoner i HWR-FORM.
+8.	Gjorde alt helt ferdig ved å fjerne CSS kode og fikse blant annet navbar, endre litt på design, fikse slideshow, skrivefeil.  Generelt finpussing. 
 
