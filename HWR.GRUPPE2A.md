@@ -73,8 +73,13 @@ dette ga oss en enklere oppgave ved å style outuputten og visualisere den slik 
 
 ## Verktøy og Kilder brukt
 Under arbeidet har brukt en rekke forskjellige verktøy og kilder. Under verktøy har vi brukt Intelli j og Visual Studio Code som hovedprogrammer for kodningen. Videre har vi brukt applikasjonen og verktøyet «Code with me» for å kode direkte sammen, dette har gitt oss gode rammer for godt samarbeid, og åpnet opp for at alle kan lære sammen. Kildene vi har brukt gjennom prosjektet er https://developer.mozilla.org/en-US/   https://www.codecademy.com/learn   https://www.w3schools.com/  https://www.youtube.com/watch?v=p4t3qlaJz5U   disse kildene har hjulpet oss å forstå koder, og gitt oss gode rammer for å skrive koder. 
+
 KILDER:
+
 Fetch API - introduction to promised-based data fetching in plain JavaScript. (2019, August 02). Retrieved October, 2021, from https://www.youtube.com/watch?v=p4t3qlaJz5U
+
 HTML. (n.d.). Retrieved October, 2021, from https://www.w3schools.com/
+
 Learn to code - for free. (n.d.). Retrieved October, 2021, from https://www.codecademy.com/
+
 MDN Web Docs. (n.d.). Retrieved October, 2021, from https://developer.mozilla.org/en-US/
