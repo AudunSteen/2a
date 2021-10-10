@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gruppe 2A</title>
     <style>
-        body {
+        body {  //gir
             background-color: black;
             font-family: "Arial";
             color: #333;
@@ -75,14 +75,14 @@
             position: absolute;
             margin-top: 250px;
 
-            animation: moveFirst 30s linear;
+            animation: moveFirst 20s linear;
             animation-iteration-count: infinite;
         }
 
 
         @keyframes moveFirst {
             from {
-                left: -30%;
+                left: -5%;
                 top: 500px;
             }
             to {
@@ -224,21 +224,33 @@
 </section>
 
 <!--slideshow-->
-<section class="slideshow">
-    <div class="Person1">
+<section>
+    <div class="slideshow" style="animation-delay: -6s">
         <img src="Bilder/image_6487327.JPG" alt="">
+    </div>
 
-        <img src="Bilder/Even.png" alt="">
-
-        <img src="Bilder/Hassan.PNG" alt="">
-
+    <div class="slideshow" style="animation-delay: -5s">
         <img src="Bilder/Audun.png" alt="">
+    </div>
 
-        <img src="Bilder/Christian.jpg" alt="">
-
-        <img src="Bilder/Isak.jpg" alt="">
-
+    <div class="slideshow" style="animation-delay: -4s">
         <img src="Bilder/chris.png" alt="">
+    </div>
+
+    <div class="slideshow" style="animation-delay: -3s">
+        <img src="Bilder/Hassan.PNG" alt="">
+    </div>
+
+    <div class="slideshow" style="animation-delay: -2s">
+        <img src="Bilder/Christian.jpg" alt="">
+    </div>
+
+    <div class="slideshow" style="animation-delay: -1s">
+        <img src="Bilder/Isak.jpg" alt="">
+    </div>
+
+    <div class="slideshow" id="evenSlide">
+        <img src="Bilder/Even.png" alt="">
     </div>
 </section>
 </body>
