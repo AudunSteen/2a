@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gruppe 2A</title>
     <style>
-        body {
+        body { /* styler alt i body */
             background-color: black;
             font-family: "Arial";
             color: #333;
@@ -14,10 +14,10 @@
             margin: 0;
         }
 
-        .visitkort {
+        .visitkort { /* utforming av visitkort (div's) */
             border-radius: 25px;
             background-color: #131e23;
-            padding: 5px;
+            padding: 15px 0 0 15px;
             margin: 9px;
             float: left;
             text-align: left;
@@ -26,7 +26,7 @@
             height: 180px;
         }
 
-        img {
+        img { /* Utforming av bilde størrelse og posisjonering */
             width: 100px;
             height: 150px;
             float: left;
@@ -35,8 +35,7 @@
             border-radius: 50%;
         }
 
-
-        nav {
+        nav { /* universell utforming av navbar. Gir eksempelvis bakgrunnsfarge og sentrerer knappene våre */
             background-color: #131e23;
             position: relative;
             top: 0;
@@ -45,14 +44,14 @@
             text-align: center;
         }
 
-        nav ul {
+        nav ul { /* kode til ul i navbaren (alt vi har). Gjør at den er helt inntil kantene av skjermen */
             list-style-type: none;
             padding: 0;
             margin: 0;
             overflow: hidden;
         }
 
-        nav li { /*navbar knappene*/
+        nav li { /* navbar innholds-utforming. Gjør at knappane kommer horisontalt etter hverandre */
             display: inline-block;
             vertical-align: middle;
             box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -60,8 +59,7 @@
             overflow: hidden;
         }
 
-
-        nav li a {
+        nav li a { /* utforming av selve navbar knappene. Gir knappene litt fyldighet, og hvit tekst */
             padding: 25px;
             display: block;
             height: 100%;
@@ -69,16 +67,15 @@
             text-decoration: none;
         }
 
-        .slideshow {
-            position: fixed;
+        .slideshow { /* animasjon og utforming av bildene på bunn */
+            position: absolute;
             bottom: 0;
             width: 100%;
-            animation: moveFirst 20s linear;
+            animation: moveFirst 21s linear;
             animation-iteration-count: infinite;
         }
 
-
-        @keyframes moveFirst {
+        @keyframes moveFirst { /* animasjons "vei beskrivelse" */
             from {
                 left: -5%;
             }
@@ -87,8 +84,9 @@
             }
         }
     </style>
-
 </head>
+
+
 
 <body>
 <nav> <!-- Bruker en navigasjonsbar for lett orientering av sidene våre-->
@@ -99,11 +97,10 @@
     </ul>
 </nav>
 
-<section> <!-- begrenser en plass for visitkortene og skiller de fra andre elementer -->
-
+<!-- begrenser en plass for visitkortene og skiller de fra andre elementer -->
+<section>
     <!--Victor sitt visittkort-->
-    <div class="visitkort"> <!-- Lager divides for hvert visitkort. Lettere-->
-        <ul>
+    <div class="visitkort">                 <!-- Lager divides for hvert visitkort. Lettere utforming-->
             <img src="Bilder/image_6487327.JPG" alt="">
 
             <p> Victor Rolf 19 <br>
@@ -112,136 +109,108 @@
                 Morgenfugl <br>
                 Sterkhet: IT-Sikkerhet <br>
                 Svakhet: Irriterer meg fort <br>
-                Partner i Painkiller AS <br>
+                Partner i Painkiller AS
             </p>
-        </ul>
     </div>
 
     <!-- audun sitt visittkort. -->
     <div class="visitkort">
-        <ul>
-            <img src="Bilder/Audun.png" alt="">
-            <p>
-                Audun Steen 21 <br>
-                audunste@uia.no<br>
-                Protagonist<br>
-                Morgenfugl <br>
-                Sterkhet: Arbeidshest <br>
-                Svakhet: Distre <br>
-                Har et alter dedikert til Elon Musk <br>
-            </p>
-        </ul>
+        <img src="Bilder/Audun.png" alt="Bilde av Audun">
+        <p>
+            Audun Steen 21 <br>
+            audunste@uia.no<br>
+            Protagonist<br>
+            Morgenfugl <br>
+            Sterkhet: Arbeidshest <br>
+            Svakhet: Distre <br>
+            Har et alter dedikert til Elon Musk
+        </p>
     </div>
     <!-- Chris sitt visittkort. -->
     <div class="visitkort">
-        <ul>
-            <img src="Bilder/chris.png" alt="">
-            <p> Christoffer Tønnessen <br>
-                Skolemail<br>
-                Consul<br>
-                Natteravn <br>
-                Sterkhet: Engasjert <br>
-                Svakhet: Dårlig til å kode<br>
-                Up and coming genious coder <br>
-            </p>
-        </ul>
+        <img src="Bilder/chris.png" alt="Bilde av Christoffer">
+        <p> Christoffer Tønnessen <br>
+            Skolemail<br>
+            Consul<br>
+            Natteravn <br>
+            Sterkhet: Engasjert <br>
+            Svakhet: Dårlig til å kode<br>
+            Up and coming genious coder <br>
+        </p>
     </div>
 
 
     <!-- Hassan sitt visittkort. -->
     <div class="visitkort">
-        <ul>
-            <img src="Bilder/Hassan.PNG" alt="">
-            <p> Hassan 19 <br>
-                hassanh@uia.no<br>
-                Forkjemper<br>
-                Natteravn <br>
-                Sterkhet: CSS, HTML og JS <br>
-                Svakhet: Lett ufokusert<br>
-                Elsker å spille på konsoll <br>
-            </p>
-        </ul>
+        <img src="Bilder/Hassan.PNG" alt="Bilde av Hassan">
+        <p> Hassan 19 <br>
+            hassanh@uia.no<br>
+            Forkjemper<br>
+            Natteravn <br>
+            Sterkhet: CSS, HTML og JS <br>
+            Svakhet: Lett ufokusert<br>
+            Elsker å spille på konsoll <br>
+        </p>
     </div>
 
 
     <!-- Christian sitt visittkort. -->
     <div class="visitkort">
-        <ul>
-            <img src="Bilder/Christian.jpg" alt="">
-
-            <p> Christian Nguyen 19 <br>
-                ctnguyen@uia.no<br>
-                Talsmann<br>
-                Natteravn <br>
-                Sterkhet: Lærer fort <br>
-                Svakhet: Motivasjonen er varierende <br>
-                Er glad i volleyball <br>
-            </p>
-        </ul>
+        <img src="Bilder/Christian.jpg" alt="Bilde av Christian">
+        <p> Christian Nguyen 19 <br>
+            ctnguyen@uia.no<br>
+            Talsmann<br>
+            Natteravn <br>
+            Sterkhet: Lærer fort <br>
+            Svakhet: Motivasjonen er varierende <br>
+            Er glad i volleyball <br>
+        </p>
     </div>
 
 
     <!-- Isak sitt visittkort. -->
     <div class="visitkort">
-        <ul>
-            <img src="Bilder/Isak.jpg" alt="">
-            <p> Isak Meen 19 <br>
-                isakkm@uia.no<br>
-                Leder<br>
-                Natteravn <br>
-                Sterkhet: Logisk tenkning <br>
-                Svakhet: Prokrastinering <br>
-                Selverklært kebab entusiast <br>
-            </p>
-        </ul>
+        <img src="Bilder/Isak.jpg" alt="Bilde av Isak">
+        <p> Isak Meen 19 <br>
+            isakkm@uia.no<br>
+            Leder<br>
+            Natteravn <br>
+            Sterkhet: Logisk tenkning <br>
+            Svakhet: Prokrastinering <br>
+            Selverklært kebab entusiast <br>
+        </p>
     </div>
 
 
     <!-- Even sitt visittkort. -->
     <div class="visitkort">
-        <ul>
-            <img src="Bilder/Even.png" alt="">
-            <p> Even 18 <br>
-                evenbf@uia.no<br>
-                Underholder<br>
-                Morgenfugl <br>
-                Sterkhet: Lesehest <br>
-                Svakhet: 2 for en på heidis hver torsdag <br>
-                Jeg liker pannekaker <br>
-            </p>
-        </ul>
+        <img src="Bilder/Even.png" alt="Bilde av Even">
+        <p> Even 18 <br>
+            evenbf@uia.no<br>
+            Underholder<br>
+            Morgenfugl <br>
+            Sterkhet: Lesehest <br>
+            Svakhet: 2 for en på heidis hver torsdag <br>
+            Jeg liker pannekaker <br>
+        </p>
     </div>
 </section>
 
 <!--slideshow-->
-<div>
-    <div class="slideshow" style="animation-delay: -9s">   <!-- har animation delay til hvert bilde så de ikke overlapper hverandre, er ikke mobil kompatibel enda-->
-        <img src="Bilder/image_6487327.JPG" alt="">
-    </div>
+<section><!-- har animation delay til hvert bilde så de ikke overlapper hverandre, er ikke kompatibel med smale skjermer-->
+    <div class="slideshow" style="animation-delay: -0s">    <img src="Bilder/image_6487327.JPG" alt=""> </div> <!-- Viktor -->
 
-    <div class="slideshow" style="animation-delay: -7.5s">
-        <img src="Bilder/Audun.png" alt="">
-    </div>
+    <div class="slideshow" style="animation-delay: -3s">    <img src="Bilder/Audun.png" alt="">         </div> <!-- Audun -->
 
-    <div class="slideshow" style="animation-delay: -6s">
-        <img src="Bilder/chris.png" alt="">
-    </div>
+    <div class="slideshow" style="animation-delay: -6s">    <img src="Bilder/chris.png" alt="">         </div> <!-- Christoffer -->
 
-    <div class="slideshow" style="animation-delay: -4.5s">
-        <img src="Bilder/Hassan.PNG" alt="">
-    </div>
+    <div class="slideshow" style="animation-delay: -9s">    <img src="Bilder/Hassan.PNG" alt="">        </div> <!-- Hassan -->
 
-    <div class="slideshow" style="animation-delay: -3s">
-        <img src="Bilder/Christian.jpg" alt="">
-    </div>
+    <div class="slideshow" style="animation-delay: -12s">   <img src="Bilder/Christian.jpg" alt="">     </div> <!-- Christian -->
 
-    <div class="slideshow" style="animation-delay: -1.5s">
-        <img src="Bilder/Isak.jpg" alt="">
-    </div>
+    <div class="slideshow" style="animation-delay: -15s">   <img src="Bilder/Isak.jpg" alt="">          </div> <!-- Isak -->
 
-    <div class="slideshow" id="evenSlide">
-        <img src="Bilder/Even.png" alt="">
-    </div>
-</div>
+    <div class="slideshow" style="animation-delay: -18s">   <img src="Bilder/Even.png" alt="">          </div> <!-- Even -->
+</section>
 </body>
 </html>
