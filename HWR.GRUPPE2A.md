@@ -24,6 +24,10 @@
    som ikke trenger å være der. Da noen brukte MAC og noen brukte PC i "code with me" så hadde vi
    store problemer med å pushe opp koden, da PC bruker "CRLF" og MAC bruker "LF" som line Seperator.
    Vi løste dette med å comitte en og en person sin endring.
+   6. DATO = ... Brukte "code with me" for å kode visualisering av dataen innhentet fra HWR form. Vi valgte å løse oppgaven
+   ved å bruke documentQuery selector og innerHtml for å hente ut dataen og visualisere det i forskjellige diver som vi ga styles.
+   vi valgte å bruke denne metoden, fordi den gir et ryddig design og visualiserng. Denne ble også designet før det ble oppgit løsningsforslag
+   av Janis, og derfor er en ikke lik noen av eksemplene gitt. Men vi synes absloutt det er et ryddig design, og visualiserer data outputten godt. 
 
 Design av nettside:
 Vi startet med en basic nettside med visittkort og litt styling, dette viste seg å ikke være en optimal
@@ -36,7 +40,8 @@ Her har vi også lekt oss litt med forskjellige styles, rammer og farger for å 
 litt informasjon om seg selv og svare på noen spørsmål om hvordan du jobber i team og hvordan du liker å jobbe.
 her har vi kodet inn en submit knapp som sender data videre til en server.
 - ved å ta "trxid" og "time" så har vi hardkodet dette inn i "HWR-Report" for å vise resultatene til hvert
-enkelt gruppemedlem så oversiktlig som mulig.
+enkelt gruppemedlem så oversiktlig som mulig. Her startet vi føst med Document.write() men endret raskt til Queryselector og innterHTML,
+dette ga oss en enklere oppgave ved å style outuputten og visualisere den slik vi ville. 
 
 Tidslinje for hva vi har gjort HWR og visittkort:
 30. August - Repository for gruppe 2A ble opprettet
