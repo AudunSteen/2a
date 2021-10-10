@@ -20,7 +20,7 @@
    kodet også inn navbar og stylet how-we-roll med bakgrunn og tekst farge.
    5. 04.10.2021 Brukte "code with me" hvor alle bidro med koder. vi gjorde ferdig visittkortene. 
    la inn bilder i github og lastet disse opp i koden. Vi har også slettet og ryddet en del i koder 
-   som ikke trenger å være der. Da noen brukte MAC og noen brukte PC i "code with me" så hadde vi
+   som ikke trenger å være der. Da noen brukte MAC og noen brukte windows PC i "code with me" så hadde vi
    store problemer med å pushe opp koden, da PC bruker "CRLF" og MAC bruker "LF" som line Seperator.
    Vi løste dette med å comitte en og en person sin endring.
    6. 06.10.2021 Brukte "code with me" for å kode visualisering av dataen innhentet fra HWR form. Vi valgte å løse oppgaven
@@ -43,6 +43,7 @@ enkelt gruppemedlem så oversiktlig som mulig. Her startet vi føst med Document
 dette ga oss en enklere oppgave ved å style outuputten og visualisere den slik vi ville. 
 
 ## Tidslinje for hva vi har gjort HWR og visittkort:
+* På slutten av dagen skrev vi alltid inn det vi hadde gjort)
 * 30.August - Repository for gruppe 2A ble opprettet
 
 * 6.September - lagt til html, CSS og JS dokument. Og opprettet github pages. Booket grupperom med tavle og gikk gjennom sammen hvordan nettsiden vår skulle se ut. Vi tegnet enkelt design på tavlen og prøvde å følge det konseptet vi så for oss. Her planla vi dårlig og brukte ikke wireframes.
@@ -71,8 +72,18 @@ dette ga oss en enklere oppgave ved å style outuputten og visualisere den slik 
 
 * 7.Oktober - Gjorde alt helt ferdig ved å fjerne CSS kode og fikse blant annet navbar, endre litt på design, fikse slideshow, skrivefeil.  Generelt finpussing. 
 
+* 10.Oktober - Fikset animasjonen i index.html. Skrev inn i reporten brukerhistorier og hvilke verktøy og kilder vi har brukt i prosjektet.
+
 ## Verktøy og Kilder brukt
-Under arbeidet har brukt en rekke forskjellige verktøy og kilder. Under verktøy har vi brukt Intelli j og Visual Studio Code som hovedprogrammer for kodningen. Videre har vi brukt applikasjonen og verktøyet «Code with me» for å kode direkte sammen, dette har gitt oss gode rammer for godt samarbeid, og åpnet opp for at alle kan lære sammen. Kildene vi har brukt gjennom prosjektet er https://developer.mozilla.org/en-US/   https://www.codecademy.com/learn   https://www.w3schools.com/  https://www.youtube.com/watch?v=p4t3qlaJz5U   disse kildene har hjulpet oss å forstå koder, og gitt oss gode rammer for å skrive koder. 
+Under arbeidet har brukt en rekke forskjellige verktøy og kilder. Under verktøy har vi brukt Intelli j og Visual Studio Code som hovedprogrammer for kodningen. Videre har vi brukt applikasjonen og verktøyet «Code with me» for å kode direkte sammen, dette har gitt oss gode rammer for godt samarbeid, og åpnet opp for at alle kan lære sammen. Kildene vi har brukt gjennom prosjektet er https://developer.mozilla.org/en-US/ https://www.codecademy.com/learn   https://www.w3schools.com/  https://www.youtube.com/watch?v=p4t3qlaJz5U   disse kildene har hjulpet oss å forstå koder, og gitt oss gode rammer for å skrive koder. 
+
+##Brukerhistorier
+Som en gruppemedlem ønsker jeg visittkort slik at jeg kan lese informasjon om andre i gruppen.
+Som en gruppe ønsker vi oversikt over arbeidsvaner slik at vi kan utvikle best mulig samarbeid.
+
+Som en IT-team ønsker vi visittkort for persondata slik at vi kan planlegge arbeid som passer best for vårt IT-team.
+Som bedriftsjef ønsker jeg at ansatte registrerer persondata slik at jeg får oversikt av preferanser i forhold til ansattes arbeidsvaner.
+Som ansatt ønsker jeg oversikt av medarbeiderens arbeidsvaner slik at jeg ser hvilke ansatte har samme arbeidsvaner som meg.
 
 KILDER:
 
