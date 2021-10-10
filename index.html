@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gruppe 2A</title>
     <style>
-        body {  //gir
+        body {
             background-color: black;
             font-family: "Arial";
             color: #333;
@@ -69,12 +69,10 @@
             text-decoration: none;
         }
 
-        /*visittkort*/
-
         .slideshow {
-            position: absolute;
-            margin-top: 250px;
-
+            position: fixed;
+            bottom: 0;
+            width: 100%;
             animation: moveFirst 20s linear;
             animation-iteration-count: infinite;
         }
@@ -83,11 +81,9 @@
         @keyframes moveFirst {
             from {
                 left: -5%;
-                top: 500px;
             }
             to {
                 left: 100%;
-                top: 500px;
             }
         }
     </style>
@@ -95,23 +91,18 @@
 </head>
 
 <body>
-<nav>
+<nav> <!-- Bruker en navigasjonsbar for lett orientering av sidene våre-->
     <ul>
         <li><a href="index.html">Hjem</a></li>
-        <li><a href="how-we-roll.html">How we roll</a></li>
+        <li><a href="how-we-roll.html">How we roll</a></li> <!-- punkter med hyperlink til de diverse sidene våre-->
         <li><a href="hwr-report.html">HWR-Report</a></li>
     </ul>
 </nav>
 
-<!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
-<div class="debug"></div>
-<script>
-    // Her skrives kode i JavaScript som "gir liv" til bilde på skjermen.
-</script>
+<section> <!-- begrenser en plass for visitkortene og skiller de fra andre elementer -->
 
-<section class="allekortene">
     <!--Victor sitt visittkort-->
-    <div class="visitkort">
+    <div class="visitkort"> <!-- Lager divides for hvert visitkort. Lettere-->
         <ul>
             <img src="Bilder/image_6487327.JPG" alt="">
 
@@ -124,9 +115,8 @@
                 Partner i Painkiller AS <br>
             </p>
         </ul>
-
-
     </div>
+
     <!-- audun sitt visittkort. -->
     <div class="visitkort">
         <ul>
@@ -224,34 +214,34 @@
 </section>
 
 <!--slideshow-->
-<section>
-    <div class="slideshow" style="animation-delay: -6s">
+<div>
+    <div class="slideshow" style="animation-delay: -9s">   <!-- har animation delay til hvert bilde så de ikke overlapper hverandre, er ikke mobil kompatibel enda-->
         <img src="Bilder/image_6487327.JPG" alt="">
     </div>
 
-    <div class="slideshow" style="animation-delay: -5s">
+    <div class="slideshow" style="animation-delay: -7.5s">
         <img src="Bilder/Audun.png" alt="">
     </div>
 
-    <div class="slideshow" style="animation-delay: -4s">
+    <div class="slideshow" style="animation-delay: -6s">
         <img src="Bilder/chris.png" alt="">
     </div>
 
-    <div class="slideshow" style="animation-delay: -3s">
+    <div class="slideshow" style="animation-delay: -4.5s">
         <img src="Bilder/Hassan.PNG" alt="">
     </div>
 
-    <div class="slideshow" style="animation-delay: -2s">
+    <div class="slideshow" style="animation-delay: -3s">
         <img src="Bilder/Christian.jpg" alt="">
     </div>
 
-    <div class="slideshow" style="animation-delay: -1s">
+    <div class="slideshow" style="animation-delay: -1.5s">
         <img src="Bilder/Isak.jpg" alt="">
     </div>
 
     <div class="slideshow" id="evenSlide">
         <img src="Bilder/Even.png" alt="">
     </div>
-</section>
+</div>
 </body>
 </html>
