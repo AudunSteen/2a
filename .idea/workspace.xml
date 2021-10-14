@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d77c88f-8133-492c-8e9e-13e27b5c10fb" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Navbar" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1z2hKaZJyg4IoO48VqJSgGfp86c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d77c88f-8133-492c-8e9e-13e27b5c10fb" name="Changes" comment="" />
+      <created>1633352221686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633352221686</updated>
+      <workItem from="1633352223273" duration="1817000" />
+      <workItem from="1633609108374" duration="4807000" />
+      <workItem from="1633942058698" duration="233000" />
+      <workItem from="1633942348513" duration="4286000" />
+      <workItem from="1634211273812" duration="278000" />
+      <workItem from="1634217250499" duration="30000" />
+      <workItem from="1634218950104" duration="186000" />
+    </task>
+    <task id="LOCAL−00001" summary="farge">
+      <created>1633352322604</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1633352322604</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Visitkort tekst">
+      <created>1633352828577</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1633352828577</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Bakgrunnsfarge, etc">
+      <created>1633353299449</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1633353299449</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Bakgrunnsfarge, etc">
+      <created>1633353958202</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1633353958202</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Lagt inn en del tekst">
+      <created>1633611368611</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1633611368611</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Syk design">
+      <created>1633613198722</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1633613198722</updated>
+    </task>
+    <task id="LOCAL−00007" summary="z-index: -1; slideshow">
+      <created>1633942405302</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1633942405302</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Fikset visittkort Chris">
+      <created>1633947169696</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1633947169696</updated>
+    </task>
+    <task id="LOCAL−00009" summary="navbar github">
+      <created>1633949854997</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1633949854997</updated>
+    </task>
+    <task id="LOCAL−00010" summary="navbar github">
+      <created>1633952710585</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1633952710585</updated>
+    </task>
+    <task id="LOCAL−00011" summary="link til page og repository i MD">
+      <created>1634211493240</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1634211493240</updated>
+    </task>
+    <task id="LOCAL−00012" summary="mappe">
+      <created>1634219047854</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1634219047854</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="farge" />
+    <MESSAGE value="Visitkort tekst" />
+    <MESSAGE value="Bakgrunnsfarge, etc" />
+    <MESSAGE value="Lagt inn en del tekst" />
+    <MESSAGE value="Syk design" />
+    <MESSAGE value="z-index: -1; slideshow" />
+    <MESSAGE value="Fikset visittkort Chris" />
+    <MESSAGE value="navbar github" />
+    <MESSAGE value="link til page og repository i MD" />
+    <MESSAGE value="mappe" />
+    <option name="LAST_COMMIT_MESSAGE" value="mappe" />
+  </component>
+</project>

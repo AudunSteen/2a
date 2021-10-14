@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HWR Rapport</title>
+  <style>
+    nav {
+      background-color: #131e23;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      display: block;
+      text-align: center;
+      right:1px
+
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    nav li { /*navbar knappene*/
+      display: inline-block;
+      vertical-align: middle;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      position: relative;
+      overflow: hidden;
+    }
+
+
+    nav li a {
+      padding: 25px;
+      display: block;
+      height: 100%;
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Css for H1/overksiften som sier "Data innsamlet av gruppe 2a" */
+    h1 {
+      font-family: arial;
+      color: #fff;
+    }
+
+    div {
+      font-family: arial;
+      color: white;
+      position: relative;
+
+
+    }
+
+    /* Dette er CSS design for de ulike boksene som visualiseres på nettsiden */
+    #Victor {
+      margin: auto;
+      width: 40%;
+      padding: 33px;
+      background-color: #131e23;
+      border-radius: 20px;
+    }
+
+    /* Dette er CSS design for de ulike boksene som visualiseres på nettsiden */
+    #Christian {
+      margin: auto;
+      width: 40%;
+      padding: 33px;
+      background-color: #131e23;
+      border-radius: 20px;
+    }
+
+    /* Dette er CSS design for de ulike boksene som visualiseres på nettsiden */
+    #Audun {
+      margin: auto;
+      width: 40%;
+      padding: 33px;
+      background-color: #131e23;
+      border-radius: 20px;
+    }
+
+    /* Dette er CSS design for de ulike boksene som visualiseres på nettsiden */
+    #Hassan {
+      margin: auto;
+      width: 40%;
+      padding: 33px;
+      background-color: #131e23;
+      border-radius: 20px;
+    }
+
+    /* Dette er CSS design for de ulike boksene som visualiseres på nettsiden */
+    #Even {
+      margin: auto;
+      width: 40%;
+      padding: 33px;
+      background-color: #131e23;
+      border-radius: 20px;
+    }
+
+    /* Dette er CSS design for de ulike boksene som visualiseres på nettsiden */
+    #christoffer {
+      margin: auto;
+      width: 40%;
+      padding: 33px;
+      background-color: #131e23;
+      border-radius: 20px;
+    }
+
+    #Isak {
+      margin: auto;
+      width: 40%;
+      padding: 33px;
+      background-color: #131e23;
+      border-radius: 20px;
+    }
+    body {
+      background-color: black;
+      font-family: "Arial";
+      color: #333;
+      font-color: white;
+      margin: 0;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!--Dette er koden for navbaren-->
+  <nav>
+    <ul>
+      <li><a href="index.html">Hjem</a></li>
+      <li><a href="how-we-roll.html">How we roll</a></li>
+      <li><a href="hwr-report.html">HWR-Report</a></li>
+      <li><a href="https://github.com/AudunSteen/2a">Github Repository til gruppe 2A</a></li>
+      <li><a href="https://github.com/AudunSteen/2a/raw/main/Rapport%20HWR.pdf">Rapport pdf</a></li>
+    </ul>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!--Dette er koden for overskriften denne har H1 element og center element som gjør den stor og setter den i midten siden-->
+  <center>
+    <H1>Data innsamlet av gruppe 2a</H1>
+  </center>
+  <!--Dette er div elementet som visualiserer API og data hentet fra Json fil, her ser man foreksempel <div class="navn">Navn: </div> som viser navnet. Dette føles av all data som  hentes ut-->
+  <div class="person" id="Victor"> <!-- Viser til hvilken Json fil de skal hente-->
+    <div class="navn">Navn: </div> <!-- Viser Navnet-->
+    <div class="email">E-Post:</div> <!--Viser Eposten-->
+    <div class="dorn">Morgenfugl/Nattugle: </div> <!--Viser om den er nærmere Morgen fugl eller Nattugle 0-100, der 0-50 er morgenfugl og 50-100 er Nattugle-->
+    <div class="cora">Samarbeide eller Jobbe individuelt: </div> <!-- Viser om den er nærmere å Samarbeide eller jobbe individuelt. 0-50 er Samarbeide og 50-100 er Individuelt arbeid-->
+    <div class="personlighet">Personlighetstype: </div> <!-- Viser personlighetstype, enten Ekstrovert eller Introvert-->
+    <div class="fysisk">Fysisk eller kontor: </div> <!-- Viser om en liker fysisk eller kontor arbeid best-->
+    <div class="under">Når arbeider du mest effektivt: </div> <!-- Viser når du arbeider mest effektivt i rolige omgivelser eller under press-->
+  </div>
+  <!--Break element som gir space mellom boksene/divene-->
+  <br>
+  <div class="person" id="Christian">
+    <div class="navn">Navn: </div>
+    <div class="email">E-Post: </div>
+    <div class="dorn">Morgenfugl/Nattugle: </div>
+    <div class="cora">Samarbeide eller Jobbe individuelt: </div>
+    <div class="personlighet">Personlighetstype: </div>
+    <div class="fysisk">Pysisk eller kontor: </div>
+    <div class="under">Når arbeider du mest effektivt: </div>
+  </div>
+  <br>
+  <div class="person" id="Audun">
+    <div class="navn">Navn: </div>
+    <div class="email">E-Post: </div>
+    <div class="dorn">Morgenfugl/Nattugle: </div>
+    <div class="cora">Samarbeide eller Jobbe individuelt: </div>
+    <div class="personlighet">Personlighetstype: </div>
+    <div class="fysisk">Fysisk eller kontor: </div>
+    <div class="under">Når arbeider du mest effektivt: </div>
+  </div>
+  <br>
+  <div class="person" id="Hassan">
+    <div class="navn">Navn: </div>
+    <div class="email">E-Post: </div>
+    <div class="dorn">Morgenfugl/Nattugle: </div>
+    <div class="cora">Samarbeide eller Jobbe individuelt: </div>
+    <div class="personlighet">Personlighetstype: </div>
+    <div class="fysisk">Fysisk eller kontor: </div>
+    <div class="under">Når arbeider du mest effektivt: </div>
+  </div>
+  <br>
+  <div class="person" id="Even">
+    <div class="navn">Navn: </div>
+    <div class="email">E-Post: </div>
+    <div class="dorn">Morgenfugl/Nattugle: </div>
+    <div class="cora">Samarbeide eller Jobbe individuelt: </div>
+    <div class="personlighet">Personlighetstype: </div>
+    <div class="fysisk">Fysisk eller kontor: </div>
+    <div class="under">Når arbeider du mest effektivt: </div>
+  </div>
+  <br>
+  <div class="person" id="christoffer">
+    <div class="navn">Navn: </div>
+    <div class="email">E-Post: </div>
+    <div class="dorn">Morgenfugl/Nattugle: </div>
+    <div class="cora">Samarbeide eller Jobbe individuelt: </div>
+    <div class="personlighet">Personlighetstype: </div>
+    <div class="fysisk">Fysisk eller kontor: </div>
+    <div class="under">Når arbeider du mest effektivt: </div>
+  </div>
+  <br>
+  <div class="person" id="Isak">
+    <div class="navn">Navn: </div>
+    <div class="email">E-Post: </div>
+    <div class="dorn">Morgenfugl/Nattugle: </div>
+    <div class="cora">Samarbeide eller Jobbe individuelt: </div>
+    <div class="personlighet">Personlighetstype: </div>
+    <div class="fysisk">Fysisk eller kontor: </div>
+    <div class="under">Når arbeider du mest effektivt: </div>
+  </div>
+
+
+
+  <script> // Link til motivasjon og løsningsforslag https://www.youtube.com/watch?v=p4t3qlaJz5U
+    // Victor sin fetch, det er på denne lenken data inputen er lagret. 
+    fetch('https://bacit.info/hwr/20211006135411-831fd9818d7557fcc4556643196581a0.json')
+      // dette er et response element, som gir meg repons fra Json filen/ en API 
+      .then((response) => {
+        return response.json()
+      })
+      // dette er koden som henter dataen lagret på Json filen, og gir mulighet for å visualisere den på siden. #Victor er lenket opp til et div element som gir muligheten for å visualisiere den
+      .then((data) => {
+        // denne koden gjør at jeg kan hente ut spesefik data, i denne forstand navnet som er lagret fra Json filen.
+        document.querySelector("#Victor .navn").innerHTML += data.navn
+        // --11-- E-Post
+        document.querySelector("#Victor .email").innerHTML += data.email
+        // --11-- Lagret Data som har id="dorn", eller som visualisert "Morgenfugl eller nattugle?"
+        document.querySelector("#Victor .dorn").innerHTML += data.dorn
+        // --11-- Lagret data som har id="cora", eller som visualisert "Samarbeide eller jobbe individuelt?"
+        document.querySelector("#Victor .cora").innerHTML += data.cora
+        // --11-- Lagret data som har id="personlighet", eller som visualisert "Personlighetstype"
+        document.querySelector("#Victor .personlighet").innerHTML += data.personlighet
+        // --11-- Lagret data som har id="fysiskellerkontor", eller som visualisert "Fysisk eller kontor?"
+        document.querySelector("#Victor .fysisk").innerHTML += data.fysiskellerkontor
+        // --11-- Lagret data som har id="Nårsamarbeiderdumesteffektivt", eller som visualisert "Når arbeider du mest"
+        document.querySelector("#Victor .under").innerHTML += data.Nårarbeiderdumesteffektivt
+
+
+
+      })
+      // dette er en error kode som visualiserer "error" dersom det er noe feil med JavaScript koden. 
+      .catch((err) => {
+        // Alert("error") viser hva som kommer opp dersom det er en error, inne i alert("") kan det stå hva som helst, men det må være forstålig, derfor valgte vi error
+        alert("Error Victor")
+      })
+
+
+    // Christian sin fetch, det er på denne lenken data inputen er lagret. 
+    fetch('https://bacit.info/hwr/20211006135512-8bd20b14d5258f5c93a41e7c35260776.json')
+      .then((response) => {
+        return response.json()
+      })
+      .then((data) => {
+        // --11--
+        document.querySelector("#Christian .navn").innerHTML += data.navn
+        // --11--
+        document.querySelector("#Christian .email").innerHTML += data.email
+        // --11--
+        document.querySelector("#Christian .dorn").innerHTML += data.dorn
+        // --11--
+        document.querySelector("#Christian .cora").innerHTML += data.cora
+        // --11--
+        document.querySelector("#Christian .personlighet").innerHTML += data.personlighet
+        // --11--
+        document.querySelector("#Christian .fysisk").innerHTML += data.fysiskellerkontor
+        // --11--
+        document.querySelector("#Christian .under").innerHTML += data.Nårarbeiderdumesteffektivt
+
+
+
+      })
+      .catch((err) => {
+        // Do something for an error here
+        alert("Error Christian")
+      })
+
+
+    // Audun sin fetch, det er på denne lenken data inputen er lagret. 
+    fetch('https://bacit.info/hwr/20211006135614-e98dc7993a6b6ae1f48a96dfd6f5a2d4.json')
+      .then((response) => {
+        return response.json()
+      })
+      .then((data) => {
+        document.querySelector("#Audun .navn").innerHTML += data.navn
+        // --11--
+        document.querySelector("#Audun .email").innerHTML += data.email
+        // --11--
+        document.querySelector("#Audun .dorn").innerHTML += data.dorn
+        // --11--
+        document.querySelector("#Audun .cora").innerHTML += data.cora
+        // --11--
+        document.querySelector("#Audun .personlighet").innerHTML += data.personlighet
+        // --11--
+        document.querySelector("#Audun .fysisk").innerHTML += data.fysiskellerkontor
+        // --11--
+        document.querySelector("#Audun .under").innerHTML += data.Nårarbeiderdumesteffektivt
+
+
+
+      })
+      .catch((err) => {
+        // Do something for an error here
+        alert("Error Audun")
+      })
+
+
+    // Hassan sin fetch, det er på denne lenken data inputen er lagret. 
+    fetch('https://bacit.info/hwr/20211006135722-d416821fa38108586519fec0724b85f1.json')
+      .then((response) => {
+        return response.json()
+      })
+      .then((data) => {
+        // --11--
+        document.querySelector("#Hassan .navn").innerHTML += data.navn
+        // --11--
+        document.querySelector("#Hassan .email").innerHTML += data.email
+        // --11--
+        document.querySelector("#Hassan .dorn").innerHTML += data.dorn
+        // --11--
+        document.querySelector("#Hassan .cora").innerHTML += data.cora
+        // --11--
+        document.querySelector("#Hassan .personlighet").innerHTML += data.personlighet
+        // --11--
+        document.querySelector("#Hassan .fysisk").innerHTML += data.fysiskellerkontor
+        // --11--
+        document.querySelector("#Hassan .under").innerHTML += data.Nårarbeiderdumesteffektivt
+
+
+
+      })
+      .catch((err) => {
+        // Do something for an error here
+        alert("Error Hassan")
+      })
+
+
+    // Even sin fetch, det er på denne lenken data inputen er lagret. 
+    fetch('https://bacit.info/hwr/20211006135850-29b7721636d29c98303b3a895c4152d7.json')
+      .then((response) => {
+        return response.json()
+      })
+      .then((data) => {
+        // -11--
+        document.querySelector("#Even .navn").innerHTML += data.navn
+        // --11--
+        document.querySelector("#Even .email").innerHTML += data.email
+        // --11--
+        document.querySelector("#Even .dorn").innerHTML += data.dorn
+        // --11--
+        document.querySelector("#Even .cora").innerHTML += data.cora
+        // --11--
+        document.querySelector("#Even .personlighet").innerHTML += data.personlighet
+        // --11--
+        document.querySelector("#Even .fysisk").innerHTML += data.fysiskellerkontor
+        // --11--
+        document.querySelector("#Even .under").innerHTML += data.Nårarbeiderdumesteffektivt
+
+
+
+      })
+      .catch((err) => {
+        // Do something for an error here
+        alert("Error Even")
+      })
+    // Christoffer sin fetch, det er på denne lenken data inputen er lagret. 
+    fetch('https://bacit.info/hwr/20211006135944-c809bdd5e54e3cd32eba9be303e61ba4.json')
+      .then((response) => {
+        return response.json()
+      })
+      .then((data) => {
+        // --11--
+        document.querySelector("#christoffer .navn").innerHTML += data.navn
+        // --11--
+        document.querySelector("#christoffer .email").innerHTML += data.email
+        // --11--
+        document.querySelector("#christoffer .dorn").innerHTML += data.dorn
+        // --11--
+        document.querySelector("#christoffer .cora").innerHTML += data.cora
+        // --11--
+        document.querySelector("#christoffer .personlighet").innerHTML += data.personlighet
+        // --11--
+        document.querySelector("#christoffer .fysisk").innerHTML += data.fysiskellerkontor
+        // --11--
+        document.querySelector("#christoffer .under").innerHTML += data.Nårarbeiderdumesteffektivt
+        // --11--
+
+
+
+      })
+      .catch((err) => {
+        // Do something for an error here
+        alert("Error Christoffer")
+      })
+
+    // Isak sin fetch, det er på denne lenken data inputen er lagret. 
+    fetch('https://bacit.info/hwr/20211007100932-362e7b7073f3a230f0aff737bd30fb9a.json')
+      // dette er et response element, som gir meg repons fra Json filen/ en API 
+      .then((response) => {
+        return response.json()
+      })
+      // dette er koden som henter dataen lagret på Json filen, og gir mulighet for å visualisere den på siden. #Victor er lenket opp til et div element som gir muligheten for å visualisiere den
+      .then((data) => {
+        // denne koden gjør at jeg kan hente ut spesefik data, i denne forstand navnet som er lagret fra Json filen.
+        document.querySelector("#Isak .navn").innerHTML += data.navn
+        // --11-- E-Post
+        document.querySelector("#Isak .email").innerHTML += data.email
+        // --11-- Lagret Data som har id="dorn", eller som visualisert "Morgenfugl eller nattugle?"
+        document.querySelector("#Isak .dorn").innerHTML += data.dorn
+        // --11-- Lagret data som har id="cora", eller som visualisert "Samarbeide eller jobbe individuelt?"
+        document.querySelector("#Isak .cora").innerHTML += data.cora
+        // --11-- Lagret data som har id="personlighet", eller som visualisert "Personlighetstype"
+        document.querySelector("#Isak .personlighet").innerHTML += data.personlighet
+        // --11-- Lagret data som har id="fysiskellerkontor", eller som visualisert "Fysisk eller kontor?"
+        document.querySelector("#Isak .fysisk").innerHTML += data.fysiskellerkontor
+        // --11-- Lagret data som har id="Nårsamarbeiderdumesteffektivt", eller som visualisert "Når arbeider du mest"
+        document.querySelector("#Isak .under").innerHTML += data.Nårarbeiderdumesteffektivt
+
+
+
+      })
+      // dette er en error kode som visualiserer "error" dersom det er noe feil med JavaScript koden. 
+      .catch((err) => {
+        // Alert("error") viser hva som kommer opp dersom det er en error, inne i alert("") kan det stå hva som helst, men det må være forstålig, derfor valgte vi error
+        alert("Error Isak")
+      })
+  </script>
+</body>
+
+</html>
