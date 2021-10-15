@@ -9,12 +9,11 @@
     <style>
         nav {
             background-color: #131e23;
-            position: absolute;
+            position: static;
             top: 0;
             width: 100%;
             display: block;
             text-align: center;
-            right:8px
 
         }
 
@@ -48,10 +47,21 @@
         body {
             color: ghostwhite;
             font-family: "Arial";
+
+        }
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .textCenter {
+            text-align: center;
         }
 
         h1 {
             color: white;
+        }
+        .leftLabel{
+            text-align: right;
         }
 
 
@@ -61,95 +71,86 @@
 <body>
 <nav>
     <ul>
-        <li><a href="index.html">Hjem</a></li>
+        <li><a href="../index.html">Hjem</a></li>
         <li><a href="how-we-roll.html">How we roll</a></li>
         <li><a href="hwr-report.html">HWR-Report</a></li>
+        <li><a href="https://github.com/AudunSteen/2a">Github Repository til gruppe 2A</a></li>
+        <li><a href="https://github.com/AudunSteen/2a/raw/main/Rapport%20HWR.pdf">Rapport pdf</a></li>
     </ul>
 </nav>
 
 <!-- Her skrives alt innhold, som man ønsker å "tegne" på skjermen. -->
 <!-- Issue se https://html.spec.whatwg.org/multipage/forms.html#introduction-4 -->
-<br>
-<br>
-<br>
-<br>
-<hr>
-<form> <!--Her registreres brukeren som sender inn data-->
+<form style="margin: 80px 0 0 20px"> <!--Her registreres brukeren som sender inn data-->
 
     <p>
-        <label for="navn">Navn</label>
-        <input type="text" name="navn" id="navn" maxlength="20" required>
-    </p>
+    <table class="center">
+        <thead>
+            <tr>
+                <th colspan="3"> <h3>HowWeRoll-parametre:</h3></th>
+            </tr>
+        </thead>
 
-    <p>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" size="40" required>
-    </p>
+        <tbody>
+            <tr>
+                <td class="leftLabel"> <label for="navn">Navn:</label></td>
+                <td colspan="2"> <input type="text" name="navn" id="navn" maxlength="20" required></td>
+            </tr>
+            <tr>
+                <td class="leftLabel"> <label for="email">Email:</label></td>
+                <td colspan="2"> <input type="email" id="email" name="email" size="30" required></td>
+            </tr>
+            <tr>
+                <!-- dorn - day or night -->
+                <td class="leftLabel"> <label for="dorn">Morgenfugl</label></td>
+                <td class="textCenter"> <input type="range" id="dorn" name="dorn" value="50"></td>
+                <td> <label for="dorn">Nattugle</label></td>
+            </tr>
+            <tr>
+                <!-- cora - cooperate or alone -->
+                <td class="leftLabel"> <label for="cora">Samarbeide</label></td>
+                <td class="textCenter"> <input type="range" id="cora" name="cora" value="50"></td>
+                <td> <label for="cora">Jobbe individuelt</label></td>
+            </tr>
+            <tr>
+                <!-- iore - introvert or ekstrovert -->
+                <td class="leftLabel"><label for="iore">Introvert</label> </td>
+                <td class="textCenter"> <input type="range" id="iore" name="iore" value="50"> </td>
+                <td> <label for="iore">Ekstrovert</label> </td>
+            </tr>
+            <tr>
+                <!--horo - home or office-->
+                <td class="leftLabel"><label for="horo">Hjemme</label></td>
+                <td class="textCenter"><input type="range" id="horo" name="horo" value="50"></td>
+                <td><label for="horo">Kontor</label></td>
+            </tr>
+            <tr>
+                <!--corp - calm environment or under pressure-->
+                <td class="leftLabel"><label for="corp">Rolige omgivelser</label></td>
+                <td class="textCenter"><input type="range" id="corp" name="corp" value="50"></td>
+                <td><label for="corp">Under stress</label></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="textCenter" style="height: 40px">
+                    <button type="submit"> Send Inn</button>
+                </td>
+            </tr>
 
-    <p>HowWeRoll-parametre:</p>
-    <p>
-        <!-- dorn - day or night -->
-        <label for="dorn">Morgenfugl</label>
-        <input type="range" id="dorn" name="dorn" value="50">
-        <label for="dorn">Nattugle</label>
-    </p>
-
-    <p>
-        <!-- cora - cooperate or alone -->
-        <label for="cora">Samarbeide</label>
-        <input type="range" id="cora" name="cora" value="50">
-        <label for="cora">Jobbe individuelt</label>
-    </p>
-
-    <p>
-        <!-- iore - introvert or ekstrovert -->
-        <label for="iore">Hvilken personlighetstype er du?: </label>
-        <select name="personlighet" id="iore">
-            <option value="Introvert">Introvert </option>
-            <option value="Extrovert">Ekstrovert</option>
-        </select>
-    </p>
-
-    <p>
-        <!--horo - home or office-->
-        <label for="horo">Hvor jobber du best?:</label>
-        <input type="radio" id="horo" name="Hvor jobber du best?" value="hjemme">
-        <label for="horo">Hjemme</label>
-
-        <input type="radio" id="office" name="Hvor jobber du best?" value="kontor">
-        <label for="office">Kontor</label>
-    </p>
-
-    <p>Når arbeider du mest effektivt?:</p>
-    <div>
-        <input type="radio" id="under press" name="Når arbeider du mest effektivt" value="rolige omgivelser"
-               checked>
-        <label for="under press">Under press</label>
-    </div>
-
-    <div>
-        <input type="radio" id="rolige omgivelser" name="Når arbeider du mest effektivt" value="under press">
-        <label for="rolige omgivelser">I rolige omgivelser</label>
-    </div>
-
-    <p>Fysisk arbeid eller kontor?:</p>
-    <div>
-        <input type="radio" id="fysisk" name="fysisk eller kontor" value="kontor"
-               checked>
-        <label for="fysisk">Fysisk arbeid</label>
-    </div>
-
-    <div>
-        <input type="radio" id="kontor" name="fysisk eller kontor" value="fysisk">
-        <label for="kontor">Kontor</label>
-    </div>
-    <button type="submit"> Send Inn</button>
+            <tr>
+                <th colspan="3" class="results">
+                    <h2></h2>
+                </th>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2" class="results" style="text-align: left">
+                    <pre></pre>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </form>
 
-<div class="results">
-    <h2>Form Data</h2>
-    <pre></pre>
-</div>
 
 <script>
     // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2021-09-27)
@@ -180,6 +181,7 @@
         postData('https://bacit.info/', formJSON)
             .then(data => {
                 results.innerText = JSON.stringify(data, null, 2);
+                document.querySelector('.results h2').innerHTML = "Form Data"
             });
     }
     const form = document.querySelector('form');
