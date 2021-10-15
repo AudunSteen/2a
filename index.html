@@ -35,64 +35,36 @@
             border-radius: 50%;
         }
 
-        .navbar {
-            overflow: hidden;
+        nav { /* universell utforming av navbar. Gir eksempelvis bakgrunnsfarge og sentrerer knappene våre */
             background-color: #131e23;
-        }
-
-        .navbar a {
-            float: left;
-            font-size: 16px;
-            color: white;
+            position: static;
+            top: 0;
+            width: 100%;
+            display: block;
             text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
         }
 
-        .dropdown {
-            float: left;
+        nav ul { /* kode til ul i navbaren (alt vi har). Gjør at den er helt inntil kantene av skjermen */
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
             overflow: hidden;
         }
 
-        .dropdown .dropbtn {
-            font-size: 16px;
-            border: none;
-            outline: none;
+        nav li { /* navbar innholds-utforming. Gjør at knappane kommer horisontalt etter hverandre */
+            display: inline-block;
+            vertical-align: middle;
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            position: relative;
+            overflow: hidden;
+        }
+
+        nav li a { /* utforming av selve navbar knappene. Gir knappene litt fyldighet, og hvit tekst */
+            padding: 25px;
+            display: block;
+            height: 100%;
             color: white;
-            padding: 14px 16px;
-            background-color: inherit;
-            font-family: inherit;
-            margin: 0;
-        }
-
-        .navbar a:hover, .dropdown:hover .dropbtn {
-            background-color: red;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-
-        .dropdown-content a {
-            float: none;
-            color: black;
-            padding: 12px 16px;
             text-decoration: none;
-            display: block;
-            text-align: left;
-        }
-
-        .dropdown-content a:hover {
-            background-color: #ddd;
-        }
-
-        .dropdown:hover .dropdown-content {
-            display: block;
         }
 
         .slideshow { /* animasjon og utforming av bildene på bunn */
@@ -118,18 +90,15 @@
 
 
 <body>
-<div class="navbar">
-    <a href="index.html">Hjem</a>
-    <div class="dropdown">
-        <button class="dropbtn">Våre prosjekter
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="How%20we%20roll/how-we-roll.html">How we roll</a>
-            <a href="#">Prototype Sosialia</a>
-        </div>
-    </div>
-</div>
+<nav> <!-- Bruker en navigasjonsbar for lett orientering av sidene våre-->
+    <ul>
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="How%20we%20roll/how-we-roll.html">How we roll</a></li> <!-- punkter med hyperlink til de diverse sidene våre-->
+        <li><a href="How%20we%20roll/hwr-report.html">HWR-Report</a></li>
+        <li><a href="https://github.com/AudunSteen/2a">Github Repository til gruppe 2A</a></li>
+        <li><a href="How%20We%20Roll/Rapport%20HWR.pdf">Rapport pdf</a></li>
+    </ul>
+</nav
 
 <!-- begrenser en plass for visitkortene og skiller de fra andre elementer -->
 <section>
