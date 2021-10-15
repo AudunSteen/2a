@@ -4,6 +4,8 @@
     <list default="true" id="ae0fdefe-ebfd-4c32-bd15-8c9fc4716d68" name="Changes" comment="Laget mapper">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_10_2021_14_56__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_10_2021_14_56__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/How we roll/how-we-roll.html" beforeDir="false" afterPath="$PROJECT_DIR$/How we roll/how-we-roll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="MarkdownEndringer" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,6 +60,8 @@
       <workItem from="1634031219008" duration="32000" />
       <workItem from="1634218700166" duration="2424000" />
       <workItem from="1634286122797" duration="361000" />
+      <workItem from="1634287490814" duration="46000" />
+      <workItem from="1634287583913" duration="303000" />
     </task>
     <task id="LOCAL−00001" summary="Gjorde visittkort 90% klart">
       <created>1633427993952</created>
