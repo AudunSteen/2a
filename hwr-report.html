@@ -9,12 +9,12 @@
   <style>
     nav {
       background-color: #131e23;
-      position: absolute;
+      position: static; /* plasserer objektet og oppfører seg etter standarden  */
       top: 0;
       width: 100%;
       display: block;
       text-align: center;
-      right:1px
+      right:1px;
 
     }
 
@@ -33,7 +33,6 @@
       overflow: hidden;
     }
 
-
     nav li a {
       padding: 25px;
       display: block;
@@ -42,81 +41,12 @@
       text-decoration: none;
     }
 
-    /* Css for H1/overksiften som sier "Data innsamlet av gruppe 2a" */
+
     h1 {
       font-family: arial;
       color: #fff;
     }
 
-    div {
-      font-family: arial;
-      color: white;
-      position: relative;
-
-
-    }
-
-    /* Dette er CSS design for de ulike boksene som visualiseres på nettsiden */
-    #Victor {
-      margin: auto;
-      width: 40%;
-      padding: 33px;
-      background-color: #131e23;
-      border-radius: 20px;
-    }
-
-    /* Dette er CSS design for de ulike boksene som visualiseres på nettsiden */
-    #Christian {
-      margin: auto;
-      width: 40%;
-      padding: 33px;
-      background-color: #131e23;
-      border-radius: 20px;
-    }
-
-    /* Dette er CSS design for de ulike boksene som visualiseres på nettsiden */
-    #Audun {
-      margin: auto;
-      width: 40%;
-      padding: 33px;
-      background-color: #131e23;
-      border-radius: 20px;
-    }
-
-    /* Dette er CSS design for de ulike boksene som visualiseres på nettsiden */
-    #Hassan {
-      margin: auto;
-      width: 40%;
-      padding: 33px;
-      background-color: #131e23;
-      border-radius: 20px;
-    }
-
-    /* Dette er CSS design for de ulike boksene som visualiseres på nettsiden */
-    #Even {
-      margin: auto;
-      width: 40%;
-      padding: 33px;
-      background-color: #131e23;
-      border-radius: 20px;
-    }
-
-    /* Dette er CSS design for de ulike boksene som visualiseres på nettsiden */
-    #christoffer {
-      margin: auto;
-      width: 40%;
-      padding: 33px;
-      background-color: #131e23;
-      border-radius: 20px;
-    }
-
-    #Isak {
-      margin: auto;
-      width: 40%;
-      padding: 33px;
-      background-color: #131e23;
-      border-radius: 20px;
-    }
     body {
       background-color: black;
       font-family: "Arial";
@@ -137,300 +67,161 @@
       <li><a href="hwr-report.html">HWR-Report</a></li>
     </ul>
   </nav>
-  <br>
-  <br>
-  <br>
-  <br>
+
+
   <!--Dette er koden for overskriften denne har H1 element og center element som gjør den stor og setter den i midten siden-->
-  <center>
-    <H1>Data innsamlet av gruppe 2a</H1>
-  </center>
-  <!--Dette er div elementet som visualiserer API og data hentet fra Json fil, her ser man foreksempel <div class="navn">Navn: </div> som viser navnet. Dette føles av all data som  hentes ut-->
-  <div class="person" id="Victor"> <!-- Viser til hvilken Json fil de skal hente-->
-    <div class="navn">Navn: </div> <!-- Viser Navnet-->
-    <div class="email">E-Post:</div> <!--Viser Eposten-->
-    <div class="dorn">Morgenfugl/Nattugle: </div> <!--Viser om den er nærmere Morgen fugl eller Nattugle 0-100, der 0-50 er morgenfugl og 50-100 er Nattugle-->
-    <div class="cora">Samarbeide eller Jobbe individuelt: </div> <!-- Viser om den er nærmere å Samarbeide eller jobbe individuelt. 0-50 er Samarbeide og 50-100 er Individuelt arbeid-->
-    <div class="personlighet">Personlighetstype: </div> <!-- Viser personlighetstype, enten Ekstrovert eller Introvert-->
-    <div class="fysisk">Fysisk eller kontor: </div> <!-- Viser om en liker fysisk eller kontor arbeid best-->
-    <div class="under">Når arbeider du mest effektivt: </div> <!-- Viser når du arbeider mest effektivt i rolige omgivelser eller under press-->
-  </div>
-  <!--Break element som gir space mellom boksene/divene-->
-  <br>
-  <div class="person" id="Christian">
-    <div class="navn">Navn: </div>
-    <div class="email">E-Post: </div>
-    <div class="dorn">Morgenfugl/Nattugle: </div>
-    <div class="cora">Samarbeide eller Jobbe individuelt: </div>
-    <div class="personlighet">Personlighetstype: </div>
-    <div class="fysisk">Pysisk eller kontor: </div>
-    <div class="under">Når arbeider du mest effektivt: </div>
-  </div>
-  <br>
-  <div class="person" id="Audun">
-    <div class="navn">Navn: </div>
-    <div class="email">E-Post: </div>
-    <div class="dorn">Morgenfugl/Nattugle: </div>
-    <div class="cora">Samarbeide eller Jobbe individuelt: </div>
-    <div class="personlighet">Personlighetstype: </div>
-    <div class="fysisk">Fysisk eller kontor: </div>
-    <div class="under">Når arbeider du mest effektivt: </div>
-  </div>
-  <br>
-  <div class="person" id="Hassan">
-    <div class="navn">Navn: </div>
-    <div class="email">E-Post: </div>
-    <div class="dorn">Morgenfugl/Nattugle: </div>
-    <div class="cora">Samarbeide eller Jobbe individuelt: </div>
-    <div class="personlighet">Personlighetstype: </div>
-    <div class="fysisk">Fysisk eller kontor: </div>
-    <div class="under">Når arbeider du mest effektivt: </div>
-  </div>
-  <br>
-  <div class="person" id="Even">
-    <div class="navn">Navn: </div>
-    <div class="email">E-Post: </div>
-    <div class="dorn">Morgenfugl/Nattugle: </div>
-    <div class="cora">Samarbeide eller Jobbe individuelt: </div>
-    <div class="personlighet">Personlighetstype: </div>
-    <div class="fysisk">Fysisk eller kontor: </div>
-    <div class="under">Når arbeider du mest effektivt: </div>
-  </div>
-  <br>
-  <div class="person" id="christoffer">
-    <div class="navn">Navn: </div>
-    <div class="email">E-Post: </div>
-    <div class="dorn">Morgenfugl/Nattugle: </div>
-    <div class="cora">Samarbeide eller Jobbe individuelt: </div>
-    <div class="personlighet">Personlighetstype: </div>
-    <div class="fysisk">Fysisk eller kontor: </div>
-    <div class="under">Når arbeider du mest effektivt: </div>
-  </div>
-  <br>
-  <div class="person" id="Isak">
-    <div class="navn">Navn: </div>
-    <div class="email">E-Post: </div>
-    <div class="dorn">Morgenfugl/Nattugle: </div>
-    <div class="cora">Samarbeide eller Jobbe individuelt: </div>
-    <div class="personlighet">Personlighetstype: </div>
-    <div class="fysisk">Fysisk eller kontor: </div>
-    <div class="under">Når arbeider du mest effektivt: </div>
-  </div>
+  <H1 style="text-align: center">Data innsamlet av gruppe 2a</H1>
 
 
-
-  <script> // Link til motivasjon og løsningsforslag https://www.youtube.com/watch?v=p4t3qlaJz5U
-    // Victor sin fetch, det er på denne lenken data inputen er lagret. 
-    fetch('https://bacit.info/hwr/20211006135411-831fd9818d7557fcc4556643196581a0.json')
-      // dette er et response element, som gir meg repons fra Json filen/ en API 
-      .then((response) => {
-        return response.json()
-      })
-      // dette er koden som henter dataen lagret på Json filen, og gir mulighet for å visualisere den på siden. #Victor er lenket opp til et div element som gir muligheten for å visualisiere den
-      .then((data) => {
-        // denne koden gjør at jeg kan hente ut spesefik data, i denne forstand navnet som er lagret fra Json filen.
-        document.querySelector("#Victor .navn").innerHTML += data.navn
-        // --11-- E-Post
-        document.querySelector("#Victor .email").innerHTML += data.email
-        // --11-- Lagret Data som har id="dorn", eller som visualisert "Morgenfugl eller nattugle?"
-        document.querySelector("#Victor .dorn").innerHTML += data.dorn
-        // --11-- Lagret data som har id="cora", eller som visualisert "Samarbeide eller jobbe individuelt?"
-        document.querySelector("#Victor .cora").innerHTML += data.cora
-        // --11-- Lagret data som har id="personlighet", eller som visualisert "Personlighetstype"
-        document.querySelector("#Victor .personlighet").innerHTML += data.personlighet
-        // --11-- Lagret data som har id="fysiskellerkontor", eller som visualisert "Fysisk eller kontor?"
-        document.querySelector("#Victor .fysisk").innerHTML += data.fysiskellerkontor
-        // --11-- Lagret data som har id="Nårsamarbeiderdumesteffektivt", eller som visualisert "Når arbeider du mest"
-        document.querySelector("#Victor .under").innerHTML += data.Nårarbeiderdumesteffektivt
+  <p style="text-align: center">  <!-- setter canvas i paragrafer for lettere sentrering på side -->
+    <canvas id="myCanvas" height="300" width="800"> </canvas>
+  </p>
+  <p style="text-align: center">
+    <canvas id="navnCanvas" height="200" width="200"> </canvas>
+  </p>
 
 
+  <script>// Link til motivasjon og løsningsforslag  https://www.youtube.com/watch?v=p4t3qlaJz5U & https://www.youtube.com/watch?v=iik25wqIuFo
 
-      })
-      // dette er en error kode som visualiserer "error" dersom det er noe feil med JavaScript koden. 
-      .catch((err) => {
-        // Alert("error") viser hva som kommer opp dersom det er en error, inne i alert("") kan det stå hva som helst, men det må være forstålig, derfor valgte vi error
-        alert("Error Victor")
-      })
+      let spm = [ //array med spørsmåls-id, start-tag og slutt-tag
+        ["dorn", "Morgenfugl", "Nattugle"],
+        ["cora", "Samarbeide", "Jobbe individuelt"],
+        ["iore", "Introvert", "Ekstrovert"],
+        ["horo", "Hjemme", "Kontor"],
+        ["corp", "Rolige omgivelser", "Under stress"]
+      ]
 
+      let urler = [ //urler for å fetche informasjon
+              'https://bacit.info/hwr/20211014071311-4ef7def2c0c4d97e146ea649481f066b.json', // Viktor
+              'https://bacit.info/hwr/20211014120233-faff01dc62a6ca7a471da68e1d4bd39a.json', // Christian
+              'https://bacit.info/hwr/20211014121011-cd645e5ea01157cc84e5b3ac097617c3.json', // Audun
+              'https://bacit.info/hwr/20211014135307-f2aba787db4841964be7d38bbf5ed0a4.json', // Hassan
+              'https://bacit.info/hwr/20211014120358-1fae780a9da89c3ab1662122898fa58d.json', // Even
+              'https://bacit.info/hwr/20211014120131-44d590e7ccab651e7af7e22cdb3f39f0.json', // Christoffer
+              'https://bacit.info/hwr/20211013211929-862b3fcbf508672d9d7938ad37d91078.json'  // Isak
+              ]
+              /*
+              Hvis vi skal legge til ny bruker fra How we roll fanen kan vi bruke funksjonen
+              " urler.push('https://bacit.info/hwr/' + TIME + '-' + TRXID + '.json') "
+              men må først finne en måte å sende inn TRXID og TIME fra HWR siden
+              */
 
-    // Christian sin fetch, det er på denne lenken data inputen er lagret. 
-    fetch('https://bacit.info/hwr/20211006135512-8bd20b14d5258f5c93a41e7c35260776.json')
-      .then((response) => {
-        return response.json()
-      })
-      .then((data) => {
-        // --11--
-        document.querySelector("#Christian .navn").innerHTML += data.navn
-        // --11--
-        document.querySelector("#Christian .email").innerHTML += data.email
-        // --11--
-        document.querySelector("#Christian .dorn").innerHTML += data.dorn
-        // --11--
-        document.querySelector("#Christian .cora").innerHTML += data.cora
-        // --11--
-        document.querySelector("#Christian .personlighet").innerHTML += data.personlighet
-        // --11--
-        document.querySelector("#Christian .fysisk").innerHTML += data.fysiskellerkontor
-        // --11--
-        document.querySelector("#Christian .under").innerHTML += data.Nårarbeiderdumesteffektivt
+      let brukerData = [];                                   // array for data hentet gjennom/fra json
+      let lineStart = 200;                                   // start x-koordinat for slider
+      let lineEnd = 600;                                     // slutt x-koordinat for slider
+      let multiplier = (lineEnd-lineStart)/100               // hvor mye man må gange brukerData verdier for å plasseres riktig på slideren
+      let distance = 50                                      // avstand mellom spørsmåla/sliderene
+      let radius = 7                                         // radius for sirkel
 
+      let navnCanvas = document.getElementById("navnCanvas") //canvas til navn og farge koordinering
+      let nctx = navnCanvas.getContext("2d")
 
+      Promise.all( //w3schools.com/js/js_promise.asp
+              urler.map( //mapper alle linkene i 'urler' for å fetche de (nedenfor) https://www.w3schools.com/jsref/jsref_map.asp
+                      (url) =>
+                              fetch(url)
+                                      .then((res) => res.json())
+                                      .then((res) => brukerData.push(res)) //dytter inn dataen i brukerData arrayen (som du kan se øverst i console.loggen)
+              )
+      )
+              .then(() => {
+                console.log(brukerData) //logger objektene/personene fra brukerData i konsollen
+                drawCanvas()            //starter å tegne inn informasjonen i canvas
+              })
 
-      })
-      .catch((err) => {
-        // Do something for an error here
-        alert("Error Christian")
-      })
-
-
-    // Audun sin fetch, det er på denne lenken data inputen er lagret. 
-    fetch('https://bacit.info/hwr/20211006135614-e98dc7993a6b6ae1f48a96dfd6f5a2d4.json')
-      .then((response) => {
-        return response.json()
-      })
-      .then((data) => {
-        document.querySelector("#Audun .navn").innerHTML += data.navn
-        // --11--
-        document.querySelector("#Audun .email").innerHTML += data.email
-        // --11--
-        document.querySelector("#Audun .dorn").innerHTML += data.dorn
-        // --11--
-        document.querySelector("#Audun .cora").innerHTML += data.cora
-        // --11--
-        document.querySelector("#Audun .personlighet").innerHTML += data.personlighet
-        // --11--
-        document.querySelector("#Audun .fysisk").innerHTML += data.fysiskellerkontor
-        // --11--
-        document.querySelector("#Audun .under").innerHTML += data.Nårarbeiderdumesteffektivt
+              .catch((err) => {
+                alert('404 error') // Alert("error") viser hva som kommer opp dersom det er en error, inne i alert("") kan det stå hva som helst, men det må være forstålig, derfor valgte vi error
+              })
 
 
-
-      })
-      .catch((err) => {
-        // Do something for an error here
-        alert("Error Audun")
-      })
+    function drawCanvas () {  //funksjon for å tegne siden
+      let canvas = document.getElementById("myCanvas")
+      if (canvas.getContext) {
+        let ctx = canvas.getContext("2d");
 
 
-    // Hassan sin fetch, det er på denne lenken data inputen er lagret. 
-    fetch('https://bacit.info/hwr/20211006135722-d416821fa38108586519fec0724b85f1.json')
-      .then((response) => {
-        return response.json()
-      })
-      .then((data) => {
-        // --11--
-        document.querySelector("#Hassan .navn").innerHTML += data.navn
-        // --11--
-        document.querySelector("#Hassan .email").innerHTML += data.email
-        // --11--
-        document.querySelector("#Hassan .dorn").innerHTML += data.dorn
-        // --11--
-        document.querySelector("#Hassan .cora").innerHTML += data.cora
-        // --11--
-        document.querySelector("#Hassan .personlighet").innerHTML += data.personlighet
-        // --11--
-        document.querySelector("#Hassan .fysisk").innerHTML += data.fysiskellerkontor
-        // --11--
-        document.querySelector("#Hassan .under").innerHTML += data.Nårarbeiderdumesteffektivt
+        for (let i = 0; i < spm.length; i++) {             // for-løkke for å gå igjennom alle spørsmåla:  https://www.w3schools.com/js/js_loop_for.asp
+          let yPos = distance * i + 20                     // verdi for y-aksen/høyden til både linjene og sirklene, øker per spørsmål
+          let property = spm[i][0]                         // velger ut property til objektet ut fra spørsmåls-arrayen
+          let n=0                                          // en teller for å endre farge
+          console.log(property)
+
+          drawLine(i, yPos, ctx)                           // Tegner linje + navn for spørsmål "i" (se funksjon nedenfor)
+
+          brukerData.forEach(function (arrayItem) {        // tegner dottene for hver person (objekt i brukerData) til spørsmål "i". kan lese om lignende her https://stackoverflow.com/questions/16626735/how-to-loop-through-an-array-containing-objects-and-access-their-properties?rq=1
+            let xPos = arrayItem[property]                 // setter x-verdi fra brukerdataen,
+            let color = selectColor(n)                     // gir farge til sirkel
+
+            drawDot(xPos, yPos, color, ctx)
+
+            if (i == 0) {
+              let name = arrayItem.navn
+              drawNames(color, name, n)
+            }
+
+            console.log(property + " sirkel tegnet")
+            n++                                            // holder tellinga /brukes til å endre farge på sirklene
+          });
+        }
+      }
+    }
 
 
+    function drawLine(i, y, ctx) {
+      ctx.beginPath();                                // starter å tegne
+      ctx.moveTo(lineStart, y);                       // X koordinat, y koordinat
+      ctx.lineTo(lineEnd, y);
+      ctx.lineWidth = 3;
+      ctx.strokeStyle = "white";
+      ctx.font = "15px Roboto";
+      ctx.fillStyle = "white";
+      ctx.textAlign = "end";                          // aligner teksten under til høyre
+      ctx.fillText(spm[i][1], lineStart - 10, y + 4); // sier at tekst fra item "1" i "i"-nte liste i SPM skal bli skrevet 10 piksler før linjestart
+      ctx.textAlign = "start";                        // aligner teksten under til venstre
+      ctx.fillText(spm[i][2], lineEnd + 10, y + 4);   // sier at tekst fra item "2" i "i"-nte liste i SPM skal bli skrevet 10 piksler etter linjeslutt
+      ctx.closePath()
+      ctx.fill()
+      ctx.stroke();                                   // tegner løpya du har programmert
+    }
 
-      })
-      .catch((err) => {
-        // Do something for an error here
-        alert("Error Hassan")
-      })
+    function drawDot(xPos, yPos, color, ctx) {
+      let x = lineStart + xPos * multiplier;
+      let y = yPos;
+      ctx.fillStyle=color;
+      ctx.lineWidth = 1;
+      ctx.strokeStyle = "black";
+      ctx.beginPath();
+      ctx.arc(x, y, radius, 0, 2 * Math.PI);                // tegner en sirkel https://www.w3schools.com/tags/canvas_arc.asp
+      ctx.closePath()
+      ctx.fill()
+      ctx.stroke();
+    }
 
+    function drawNames(color, name, n){
+        let x = 10;
+        let y = n * 30 + 10;
+        nctx.fillStyle=color;
+        nctx.lineWidth = 1;
+        nctx.strokeStyle = "black";
+        nctx.beginPath();
+        nctx.arc(x, y, radius, 0, 2 * Math.PI);                // tegner en sirkel https://www.w3schools.com/tags/canvas_arc.asp
+        nctx.closePath()
+        nctx.fill()
+        nctx.stroke();
+        nctx.beginPath();
+        nctx.strokeStyle = "white";
+        nctx.font = "15px Roboto";
+        nctx.fillStyle = "white";
+        nctx.textAlign = "start";                          // aligner teksten under til høyre
+        nctx.fillText(name, x + radius *2 , y + 4);
+        nctx.stroke();
+    }
 
-    // Even sin fetch, det er på denne lenken data inputen er lagret. 
-    fetch('https://bacit.info/hwr/20211006135850-29b7721636d29c98303b3a895c4152d7.json')
-      .then((response) => {
-        return response.json()
-      })
-      .then((data) => {
-        // -11--
-        document.querySelector("#Even .navn").innerHTML += data.navn
-        // --11--
-        document.querySelector("#Even .email").innerHTML += data.email
-        // --11--
-        document.querySelector("#Even .dorn").innerHTML += data.dorn
-        // --11--
-        document.querySelector("#Even .cora").innerHTML += data.cora
-        // --11--
-        document.querySelector("#Even .personlighet").innerHTML += data.personlighet
-        // --11--
-        document.querySelector("#Even .fysisk").innerHTML += data.fysiskellerkontor
-        // --11--
-        document.querySelector("#Even .under").innerHTML += data.Nårarbeiderdumesteffektivt
+    //funksjon for å få en maksimal graderingsforksjell mellom fargene til dottene våre, som blir kalkulert utifra hvor mange personer vi er. hentet inspirasjon fra https://stackoverflow.com/questions/10014271/generate-random-color-distinguishable-to-humans
+    function selectColor(colorNum) {
+      return "hsl(" + (colorNum * (360 / brukerData.length) % 360) + ",100%,50%)";
+    }
 
-
-
-      })
-      .catch((err) => {
-        // Do something for an error here
-        alert("Error Even")
-      })
-    // Christoffer sin fetch, det er på denne lenken data inputen er lagret. 
-    fetch('https://bacit.info/hwr/20211006135944-c809bdd5e54e3cd32eba9be303e61ba4.json')
-      .then((response) => {
-        return response.json()
-      })
-      .then((data) => {
-        // --11--
-        document.querySelector("#christoffer .navn").innerHTML += data.navn
-        // --11--
-        document.querySelector("#christoffer .email").innerHTML += data.email
-        // --11--
-        document.querySelector("#christoffer .dorn").innerHTML += data.dorn
-        // --11--
-        document.querySelector("#christoffer .cora").innerHTML += data.cora
-        // --11--
-        document.querySelector("#christoffer .personlighet").innerHTML += data.personlighet
-        // --11--
-        document.querySelector("#christoffer .fysisk").innerHTML += data.fysiskellerkontor
-        // --11--
-        document.querySelector("#christoffer .under").innerHTML += data.Nårarbeiderdumesteffektivt
-        // --11--
-
-
-
-      })
-      .catch((err) => {
-        // Do something for an error here
-        alert("Error Christoffer")
-      })
-
-    // Isak sin fetch, det er på denne lenken data inputen er lagret. 
-    fetch('https://bacit.info/hwr/20211007100932-362e7b7073f3a230f0aff737bd30fb9a.json')
-      // dette er et response element, som gir meg repons fra Json filen/ en API 
-      .then((response) => {
-        return response.json()
-      })
-      // dette er koden som henter dataen lagret på Json filen, og gir mulighet for å visualisere den på siden. #Victor er lenket opp til et div element som gir muligheten for å visualisiere den
-      .then((data) => {
-        // denne koden gjør at jeg kan hente ut spesefik data, i denne forstand navnet som er lagret fra Json filen.
-        document.querySelector("#Isak .navn").innerHTML += data.navn
-        // --11-- E-Post
-        document.querySelector("#Isak .email").innerHTML += data.email
-        // --11-- Lagret Data som har id="dorn", eller som visualisert "Morgenfugl eller nattugle?"
-        document.querySelector("#Isak .dorn").innerHTML += data.dorn
-        // --11-- Lagret data som har id="cora", eller som visualisert "Samarbeide eller jobbe individuelt?"
-        document.querySelector("#Isak .cora").innerHTML += data.cora
-        // --11-- Lagret data som har id="personlighet", eller som visualisert "Personlighetstype"
-        document.querySelector("#Isak .personlighet").innerHTML += data.personlighet
-        // --11-- Lagret data som har id="fysiskellerkontor", eller som visualisert "Fysisk eller kontor?"
-        document.querySelector("#Isak .fysisk").innerHTML += data.fysiskellerkontor
-        // --11-- Lagret data som har id="Nårsamarbeiderdumesteffektivt", eller som visualisert "Når arbeider du mest"
-        document.querySelector("#Isak .under").innerHTML += data.Nårarbeiderdumesteffektivt
-
-
-
-      })
-      // dette er en error kode som visualiserer "error" dersom det er noe feil med JavaScript koden. 
-      .catch((err) => {
-        // Alert("error") viser hva som kommer opp dersom det er en error, inne i alert("") kan det stå hva som helst, men det må være forstålig, derfor valgte vi error
-        alert("Error Isak")
-      })
   </script>
 </body>
 
