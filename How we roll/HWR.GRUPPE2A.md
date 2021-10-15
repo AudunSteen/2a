@@ -16,7 +16,6 @@
 Github Page til gruppe 2A: https://audunsteen.github.io/2a/
 
 Github Repository til gruppe 2A: https://github.com/AudunSteen/2a
-
 #Sammendrag av vårt arbeid med HWR
 ## Rapportering etter arbeid
    1. 27.09.2021 Vi har tidligere laget et visittkort/mockup 
@@ -46,7 +45,10 @@ Github Repository til gruppe 2A: https://github.com/AudunSteen/2a
    ved å bruke documentQueryselector og innerHtml for å hente ut dataen og visualisere det i forskjellige diver som vi ga styles.
    vi valgte å bruke denne metoden, fordi den gir et ryddig design og visualiserng. Denne ble også designet før det ble oppgit løsningsforslag
    av Janis, og derfor er en ikke lik noen av eksemplene gitt. Men vi synes absloutt det er et ryddig design, og visualiserer data outputten godt. 
-
+   7. 11.10.2021 fikk tilbake melding av janis, oppgaven er ikke godkjent pga vi manglet forside på rapporten. I tilleg hadde vi ikke samlet inn 
+   Data fra HWR på riktig måte ut i fra oppgave beskrivelsen (canvas). 
+   8. 15.10.2021 vi fikset på rapporten, vi har samlet data gjennom arrays og fremstilte i canvas. Fikset også på navbar og la til github repo og rapport pdf. 
+      
 ## Design av nettside:
 Vi startet med en basic nettside med visittkort og litt styling, dette viste seg å ikke være en optimal
 Og oversiktlig nettside hvor vi hadde gjort de vanskelig å style. Vi endte dermed med å starte helt fra 
@@ -93,6 +95,7 @@ dette ga oss en enklere oppgave ved å style outuputten og visualisere den slik 
 
 * 10.Oktober - Fikset animasjonen i index.html. Skrev inn i reporten brukerhistorier og hvilke verktøy og kilder vi har brukt i prosjektet.
 
+* 15.Oktober - La til forside i rapporten. Fikset HWR-report.html. Fikset Navbar.
 ## Verktøy og Kilder brukt
 Under arbeidet har brukt en rekke forskjellige verktøy og kilder. Under verktøy har vi brukt Intelli j og Visual Studio Code som hovedprogrammer for kodningen. Videre har vi brukt applikasjonen og verktøyet «Code with me» for å kode direkte sammen, dette har gitt oss gode rammer for godt samarbeid, og åpnet opp for at alle kan lære sammen. Kildene vi har brukt gjennom prosjektet er https://developer.mozilla.org/en-US/ https://www.codecademy.com/learn   https://www.w3schools.com/  https://www.youtube.com/watch?v=p4t3qlaJz5U   disse kildene har hjulpet oss å forstå koder, og gitt oss gode rammer for å skrive koder. 
 
