@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae0fdefe-ebfd-4c32-bd15-8c9fc4716d68" name="Changes" comment="Skrev inn navn, mail og godkjenning av igjenbruk">
+    <list default="true" id="ae0fdefe-ebfd-4c32-bd15-8c9fc4716d68" name="Changes" comment="Laget mapper">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_10_2021_14_56__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_10_2021_14_56__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +29,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\ITUIA\2a\How we roll" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +56,8 @@
       <workItem from="1633946864872" duration="3872000" />
       <workItem from="1634031080417" duration="79000" />
       <workItem from="1634031219008" duration="32000" />
-      <workItem from="1634218700166" duration="1488000" />
+      <workItem from="1634218700166" duration="2424000" />
+      <workItem from="1634286122797" duration="361000" />
     </task>
     <task id="LOCAL−00001" summary="Gjorde visittkort 90% klart">
       <created>1633427993952</created>
@@ -88,7 +95,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1633951500703</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Laget mapper">
+      <created>1634220372206</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1634220372206</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +124,7 @@
     <MESSAGE value="Fikset navbar" />
     <MESSAGE value="La til brukerhistorier, fikset slideshow og verktøy og kilder" />
     <MESSAGE value="Skrev inn navn, mail og godkjenning av igjenbruk" />
-    <option name="LAST_COMMIT_MESSAGE" value="Skrev inn navn, mail og godkjenning av igjenbruk" />
+    <MESSAGE value="Laget mapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laget mapper" />
   </component>
 </project>
