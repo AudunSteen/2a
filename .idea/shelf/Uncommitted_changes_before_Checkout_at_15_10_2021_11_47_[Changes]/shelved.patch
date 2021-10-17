@@ -1,0 +1,76 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ae0fdefe-ebfd-4c32-bd15-8c9fc4716d68\" name=\"Changes\" comment=\"Laget mapper\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_10_2021_14_56__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_10_2021_14_56__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/How we roll/how-we-roll.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/How we roll/how-we-roll.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1z5B6FmDqsxZe0Ms3sRObqPZy1u\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Administrator\\ITUIA\\2a\\How we roll\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ae0fdefe-ebfd-4c32-bd15-8c9fc4716d68\" name=\"Changes\" comment=\"\" />\r\n      <created>1633427896085</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1633427896085</updated>\r\n      <workItem from=\"1633427900872\" duration=\"1986000\" />\r\n      <workItem from=\"1633511905621\" duration=\"900000\" />\r\n      <workItem from=\"1633609613312\" duration=\"3397000\" />\r\n      <workItem from=\"1633685967402\" duration=\"70000\" />\r\n      <workItem from=\"1633705540164\" duration=\"40000\" />\r\n      <workItem from=\"1633873995564\" duration=\"1051000\" />\r\n      <workItem from=\"1633878918455\" duration=\"376000\" />\r\n      <workItem from=\"1633886936164\" duration=\"420000\" />\r\n      <workItem from=\"1633888436997\" duration=\"216000\" />\r\n      <workItem from=\"1633888696280\" duration=\"988000\" />\r\n      <workItem from=\"1633890877423\" duration=\"1058000\" />\r\n      <workItem from=\"1633946864872\" duration=\"3872000\" />\r\n      <workItem from=\"1634031080417\" duration=\"79000\" />\r\n      <workItem from=\"1634031219008\" duration=\"32000\" />\r\n      <workItem from=\"1634218700166\" duration=\"2424000\" />\r\n      <workItem from=\"1634286122797\" duration=\"361000\" />\r\n      <workItem from=\"1634287490814\" duration=\"46000\" />\r\n      <workItem from=\"1634287583913\" duration=\"303000\" />\r\n    </task>\r\n    <task id=\"LOCAL−00001\" summary=\"Gjorde visittkort 90% klart\">\r\n      <created>1633427993952</created>\r\n      <option name=\"number\" value=\"LOCAL−00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00001\" />\r\n      <updated>1633427993952</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00002\" summary=\"Gjorde visittkort 90% klart\">\r\n      <created>1633428325517</created>\r\n      <option name=\"number\" value=\"LOCAL−00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00002\" />\r\n      <updated>1633428325517</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00003\" summary=\"Gjorde visittkort 90% klart\">\r\n      <created>1633428972255</created>\r\n      <option name=\"number\" value=\"LOCAL−00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00003\" />\r\n      <updated>1633428972255</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00004\" summary=\"Fikset navbar\">\r\n      <created>1633612092455</created>\r\n      <option name=\"number\" value=\"LOCAL−00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00004\" />\r\n      <updated>1633612092455</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00005\" summary=\"La til brukerhistorier, fikset slideshow og verktøy og kilder\">\r\n      <created>1633891830210</created>\r\n      <option name=\"number\" value=\"LOCAL−00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00005\" />\r\n      <updated>1633891830210</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00006\" summary=\"Skrev inn navn, mail og godkjenning av igjenbruk\">\r\n      <created>1633951500703</created>\r\n      <option name=\"number\" value=\"LOCAL−00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00006\" />\r\n      <updated>1633951500703</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00007\" summary=\"Laget mapper\">\r\n      <created>1634220372206</created>\r\n      <option name=\"number\" value=\"LOCAL−00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00007\" />\r\n      <updated>1634220372206</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Gjorde visittkort 90% klart\" />\r\n    <MESSAGE value=\"Fikset navbar\" />\r\n    <MESSAGE value=\"La til brukerhistorier, fikset slideshow og verktøy og kilder\" />\r\n    <MESSAGE value=\"Skrev inn navn, mail og godkjenning av igjenbruk\" />\r\n    <MESSAGE value=\"Laget mapper\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Laget mapper\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 61e972650ed48c25b13ad2ab72f619c33251f36a)
++++ b/.idea/workspace.xml	(date 1634290883309)
+@@ -1,11 +1,15 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="ae0fdefe-ebfd-4c32-bd15-8c9fc4716d68" name="Changes" comment="Laget mapper">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_10_2021_14_56__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_10_2021_14_56__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/How we roll/how-we-roll.html" beforeDir="false" afterPath="$PROJECT_DIR$/How we roll/how-we-roll.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++    <list default="true" id="ae0fdefe-ebfd-4c32-bd15-8c9fc4716d68" name="Changes" comment="Fikset på at Rapport PDF fungerer på navbar.">
++      <change afterPath="$PROJECT_DIR$/HWR.GRUPPE2A.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Rapport HWR.pdf" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/how-we-roll.html" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/hwr-report.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -30,6 +34,10 @@
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++    <property name="node.js.detected.package.eslint" value="true" />
++    <property name="node.js.detected.package.tslint" value="true" />
++    <property name="node.js.selected.package.eslint" value="(autodetect)" />
++    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+   </component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+@@ -61,7 +69,7 @@
+       <workItem from="1634218700166" duration="2424000" />
+       <workItem from="1634286122797" duration="361000" />
+       <workItem from="1634287490814" duration="46000" />
+-      <workItem from="1634287583913" duration="303000" />
++      <workItem from="1634287583913" duration="1627000" />
+     </task>
+     <task id="LOCAL−00001" summary="Gjorde visittkort 90% klart">
+       <created>1633427993952</created>
+@@ -105,7 +113,13 @@
+       <option name="presentableId" value="LOCAL−00007" />
+       <updated>1634220372206</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL−00008" summary="Fikset på at Rapport PDF fungerer på navbar.">
++      <created>1634288004524</created>
++      <option name="number" value="LOCAL−00008" />
++      <option name="presentableId" value="LOCAL−00008" />
++      <updated>1634288004524</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -129,6 +143,7 @@
+     <MESSAGE value="La til brukerhistorier, fikset slideshow og verktøy og kilder" />
+     <MESSAGE value="Skrev inn navn, mail og godkjenning av igjenbruk" />
+     <MESSAGE value="Laget mapper" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Laget mapper" />
++    <MESSAGE value="Fikset på at Rapport PDF fungerer på navbar." />
++    <option name="LAST_COMMIT_MESSAGE" value="Fikset på at Rapport PDF fungerer på navbar." />
+   </component>
+ </project>
+\ No newline at end of file
