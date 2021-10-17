@@ -13,9 +13,12 @@
 |We confirm hereby that we are not citing or using in other ways other’s work without stating that clearly and that all of the sources that we have used are listed in the references| x|
 |We allow the use of this work for educational purposes|x|
 |We hereby confirm that every member of the group named on this page has contributed to this deliverable/product| x|
+
+
 Github Page til gruppe 2A: https://audunsteen.github.io/2a/
 
 Github Repository til gruppe 2A: https://github.com/AudunSteen/2a
+
 #Sammendrag av vårt arbeid med HWR
 ## Rapportering etter arbeid
 1. 27.09.2021 Vi har tidligere laget et visittkort/mockup
